@@ -635,22 +635,51 @@ select.form-ctrl {
 .is-btn:hover { background: var(--primary); color: #fff; border-color: var(--primary); }
 .is-val { font-size: .75rem; font-weight: 800; min-width: 18px; text-align: center; color: var(--primary-dark); }
 .is-unit { font-size: .65rem; color: var(--muted); }
-.day-select {
+/* Recipe search combobox */
+.rs-wrap { position: relative; margin-top: 6px; }
+.rs-input {
   width: 100%;
   padding: 8px 10px;
-  border: 1.5px solid var(--border);
+  border: 1.5px dashed var(--primary-light);
   border-radius: var(--r-sm);
-  font-size: 16px;
+  font-size: .82rem;
   font-family: inherit;
-  color: var(--muted);
-  background: #fff;
-  cursor: pointer;
-  transition: border-color .18s;
-  margin-top: 4px;
+  color: var(--primary);
+  background: transparent;
+  cursor: text;
+  transition: border-color .15s, background .15s;
   -webkit-appearance: none;
-  appearance: none;
 }
-.day-select:focus { outline: none; border-color: var(--primary-light); }
+.rs-input:focus { outline: none; border-style: solid; border-color: var(--primary); background: #fff; color: var(--text); }
+.rs-input::placeholder { color: var(--primary); opacity: .85; }
+.rs-wrap.rs-side .rs-input { border-color: #A5D6A7; color: #388E3C; }
+.rs-wrap.rs-side .rs-input::placeholder { color: #388E3C; }
+.rs-wrap.rs-side .rs-input:focus { border-color: #388E3C; }
+.rs-dropdown {
+  display: none;
+  position: absolute;
+  top: calc(100% + 3px);
+  left: 0; right: 0;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--r-sm);
+  box-shadow: var(--shadow-lg);
+  max-height: 220px;
+  overflow-y: auto;
+  z-index: 150;
+  -webkit-overflow-scrolling: touch;
+}
+.rs-item {
+  padding: 10px 12px;
+  font-size: .82rem;
+  cursor: pointer;
+  border-bottom: 1px solid var(--border);
+  transition: background .1s;
+  line-height: 1.3;
+}
+.rs-item:last-child { border-bottom: none; }
+.rs-item:hover, .rs-item:active { background: var(--bg); color: var(--primary-dark); font-weight: 600; }
+.rs-empty { padding: 10px 12px; font-size: .78rem; color: var(--muted); font-style: italic; }
 
 /* ── SHOPPING LIST ────────────────────────── */
 .shop-card {
@@ -2452,10 +2481,13 @@ function renderWeek() {
           !usedIds.includes(r.id) && (r.flags || []).includes('fruktostMellanmal')
         );
         const noTaggedRecipes = !state.recipes.some(r => (r.flags || []).includes('fruktostMellanmal'));
-        const sel = available.length ? `<select class="day-select" onchange="addToDay('${day.key}','${meal.key}',this,'main')">
-          <option value="">+ Välj ${meal.label.toLowerCase()}…</option>
-          ${available.map(r => `<option value="${r.id}">${esc(r.name)}</option>`).join('')}
-        </select>` : (noTaggedRecipes ? `<p class="no-meal-text" style="font-size:.68rem">Tagga recept med 🌅 Frukost/Mellanmål för att visa dem här</p>` : '');
+        const sel = noTaggedRecipes
+          ? `<p class="no-meal-text" style="font-size:.68rem">Tagga recept med 🌅 Frukost/Mellanmål för att visa dem här</p>`
+          : `<div class="rs-wrap" data-day="${day.key}" data-meal="${meal.key}" data-role="frukost">
+              <input class="rs-input" type="text" placeholder="+ Välj ${meal.label.toLowerCase()}…"
+                oninput="rsFilter(this)" onfocus="rsOpen(this)" onblur="rsBlur(this)" autocomplete="off">
+              <div class="rs-dropdown"></div>
+            </div>`;
         return `
           <div class="meal-section">
             <div class="meal-label">${meal.icon} ${meal.label}</div>
@@ -2479,15 +2511,17 @@ function renderWeek() {
           !usedSideIds.includes(r.id) && (r.flags || []).includes('gronsak')
         );
 
-        const mainSel = availableMains.length ? `<select class="day-select" onchange="addToDay('${day.key}','${meal.key}',this,'main')">
-          <option value="">+ Välj recept…</option>
-          ${availableMains.map(r => `<option value="${r.id}">${esc(r.name)}</option>`).join('')}
-        </select>` : '';
+        const mainSel = `<div class="rs-wrap" data-day="${day.key}" data-meal="${meal.key}" data-role="main">
+          <input class="rs-input" type="text" placeholder="+ Välj recept…"
+            oninput="rsFilter(this)" onfocus="rsOpen(this)" onblur="rsBlur(this)" autocomplete="off">
+          <div class="rs-dropdown"></div>
+        </div>`;
 
-        const sideSel = availableSides.length ? `<div class="gronsak-select-row"><select class="day-select" style="border-color:#A5D6A7;color:#388E3C" onchange="addToDay('${day.key}','${meal.key}',this,'side')">
-          <option value="">🥦 + Lägg till grönsak…</option>
-          ${availableSides.map(r => `<option value="${r.id}">${esc(r.name)}</option>`).join('')}
-        </select></div>` : '';
+        const sideSel = availableSides.length ? `<div class="rs-wrap rs-side" data-day="${day.key}" data-meal="${meal.key}" data-role="side">
+          <input class="rs-input" type="text" placeholder="+ Lägg till grönsak…"
+            oninput="rsFilter(this)" onfocus="rsOpen(this)" onblur="rsBlur(this)" autocomplete="off">
+          <div class="rs-dropdown"></div>
+        </div>` : '';
 
         return `
           <div class="meal-section">
@@ -2535,6 +2569,59 @@ function renderWeek() {
         ${totFat     ? `<div class="wm-box mb-fat"><div class="wm-box-val">${totFat}g</div><div class="wm-box-lbl">fett</div></div>` : ''}
       </div>
     </div>` : '';
+}
+
+/* ── RECIPE SEARCH (week plan) ── */
+function rsGetContext(input) {
+  const wrap = input.closest('.rs-wrap');
+  return { dayKey: wrap.dataset.day, mealType: wrap.dataset.meal, role: wrap.dataset.role };
+}
+
+function rsAvailable(dayKey, mealType, role) {
+  const entries = state.weekPlan[dayKey][mealType] || [];
+  if (role === 'side') {
+    const used = entries.filter(e => e.role === 'side').map(e => e.id);
+    return state.recipes.filter(r => !used.includes(r.id) && (r.flags||[]).includes('gronsak'));
+  }
+  if (role === 'frukost') {
+    const used = entries.map(e => e.id);
+    return state.recipes.filter(r => !used.includes(r.id) && (r.flags||[]).includes('fruktostMellanmal'));
+  }
+  const used = entries.filter(e => (e.role||'main') !== 'side').map(e => e.id);
+  return state.recipes.filter(r =>
+    !used.includes(r.id) && !(r.flags||[]).includes('gronsak') && !(r.flags||[]).includes('fruktostMellanmal')
+  );
+}
+
+function rsPopulate(input) {
+  const { dayKey, mealType, role } = rsGetContext(input);
+  const q = input.value.trim().toLowerCase();
+  let recipes = rsAvailable(dayKey, mealType, role);
+  if (q) recipes = recipes.filter(r => r.name.toLowerCase().includes(q));
+  const dropdown = input.nextElementSibling;
+  dropdown.innerHTML = recipes.length
+    ? recipes.map(r => `<div class="rs-item" onmousedown="rsSelect(event,'${r.id}')">${esc(r.name)}</div>`).join('')
+    : `<div class="rs-empty">Inga recept hittades</div>`;
+  dropdown.style.display = '';
+}
+
+function rsOpen(input)   { rsPopulate(input); }
+function rsFilter(input) { rsPopulate(input); }
+function rsBlur(input)   { setTimeout(() => { input.nextElementSibling.style.display = 'none'; input.value = ''; }, 160); }
+
+function rsSelect(e, recipeId) {
+  e.preventDefault();
+  const input = e.target.closest('.rs-dropdown').previousElementSibling;
+  const { dayKey, mealType, role } = rsGetContext(input);
+  const actualRole = role === 'frukost' ? 'main' : role;
+  const meal = state.weekPlan[dayKey][mealType] || [];
+  if (!meal.find(en => en.id === recipeId && en.role === actualRole)) {
+    const r = state.recipes.find(x => x.id === recipeId);
+    meal.push({ id: recipeId, portions: r?.servings || 4, person: 'alla', role: actualRole });
+    state.weekPlan[dayKey][mealType] = meal;
+    save();
+    renderWeek();
+  }
 }
 
 function addToDay(dayKey, mealType, sel, role = 'main') {
