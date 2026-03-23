@@ -1326,6 +1326,7 @@ select.form-ctrl {
 
 @media (min-width: 768px) {
   .fab { display: none !important; }
+  .save-fab { bottom: 28px; right: 28px; }
 }
 
 /* ── FAB (floating action button, mobile only) */
@@ -1498,17 +1499,32 @@ select.form-ctrl {
 ```
 
 /* ── GITHUB SYNC ────────────────────────────── */
-.save-btn {
-  font-size: .75rem; font-weight: 700; padding: 6px 16px;
-  border-radius: 20px; margin-left: 12px; border: none; cursor: pointer;
-  font-family: inherit; letter-spacing: .04em; transition: all .2s;
+.save-fab {
+  position: fixed;
+  bottom: calc(68px + var(--safe-bottom) + 72px);
+  right: 16px;
+  z-index: 249;
+  font-size: .78rem; font-weight: 700; padding: 10px 20px;
+  border-radius: 24px; border: none; cursor: pointer;
+  font-family: inherit; letter-spacing: .05em;
+  transition: opacity .25s, transform .25s, background .2s, box-shadow .2s;
+  pointer-events: auto;
 }
-.save-idle    { background: rgba(255,255,255,.10); color: rgba(255,255,255,.4); cursor: default; }
-.save-dirty   { background: var(--primary); color: #fff; box-shadow: 0 2px 10px rgba(108,77,145,.5); }
+.save-idle    { opacity: 0; transform: translateY(8px) scale(.95); pointer-events: none;
+                background: transparent; color: transparent; }
+.save-dirty   { opacity: 1; transform: translateY(0) scale(1);
+                background: var(--primary); color: #fff;
+                box-shadow: 0 4px 18px rgba(108,77,145,.45); }
 .save-dirty:hover { background: var(--primary-dark); }
-.save-saving  { background: rgba(255,255,255,.12); color: rgba(255,255,255,.7); cursor: default; }
-.save-ok      { background: rgba(100,200,100,.22); color: #9CDD9C; cursor: default; }
-.save-error   { background: rgba(220,100,100,.25); color: #F09090; cursor: pointer; }
+.save-saving  { opacity: 1; transform: translateY(0) scale(1);
+                background: rgba(60,90,62,.85); color: #C8E6C9; cursor: default;
+                box-shadow: 0 4px 12px rgba(0,0,0,.2); pointer-events: none; }
+.save-ok      { opacity: 1; transform: translateY(0) scale(1);
+                background: rgba(60,90,62,.85); color: #C8E6C9; cursor: default;
+                box-shadow: 0 4px 12px rgba(0,0,0,.2); pointer-events: none; }
+.save-error   { opacity: 1; transform: translateY(0) scale(1);
+                background: #8B2020; color: #FFD0D0; cursor: pointer;
+                box-shadow: 0 4px 14px rgba(180,40,40,.4); }
 
 .gh-setup-card {
   background: var(--card); border-radius: var(--r);
@@ -1541,9 +1557,9 @@ select.form-ctrl {
       <button class="nav-btn"        id="tab-costs"    onclick="switchTab('costs')">Kostnader</button>
       <button class="nav-btn"        id="tab-data"     onclick="switchTab('data')">Inställningar</button>
     </nav>
-    <button id="save-btn" class="save-btn save-idle" onclick="pushToGitHub()" title="Spara till GitHub">Spara</button>
   </div>
 </header>
+<button id="save-btn" class="save-fab save-idle" onclick="pushToGitHub()" title="Spara till GitHub">Spara</button>
 
 <!-- Mobile bottom navigation -->
 
@@ -1917,7 +1933,7 @@ function setSaveBtn(state, msg) {
   };
   const [label, cls] = map[state] || map.idle;
   btn.textContent = msg || label;
-  btn.className = `save-btn ${cls}`;
+  btn.className = `save-fab ${cls}`;
   btn.disabled = (state === 'saving');
 }
 
