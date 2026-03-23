@@ -3990,6 +3990,613 @@
         }
       ],
       "instructions": "1. Lägg rucolaen i en skål.\n2. Skär päronet i tunna skivor och lägg ovanpå.\n3. Strö valnötter, ringla olivolja och balsamvinäger."
+    },
+    {
+      "id": "veg-26",
+      "name": "Tomat",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 20,
+        "protein": 1,
+        "carbs": 4,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Tomater",
+          "amount": "4",
+          "unit": "st"
+        },
+        {
+          "name": "Salt",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "Skiva och servera."
+    },
+    {
+      "id": "veg-27",
+      "name": "Gurka",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 15,
+        "protein": 1,
+        "carbs": 3,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Gurka",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Salt",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "Skiva och servera."
+    },
+    {
+      "id": "veg-28",
+      "name": "Majs",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 90,
+        "protein": 3,
+        "carbs": 18,
+        "fat": 1
+      },
+      "ingredients": [
+        {
+          "name": "Majs (burk)",
+          "amount": "1",
+          "unit": "burk"
+        }
+      ],
+      "instructions": "Häll av och servera kall, eller värm i kastrull 2 min."
+    },
+    {
+      "id": "veg-29",
+      "name": "Ärtor",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 70,
+        "protein": 5,
+        "carbs": 12,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Frysta ärtor",
+          "amount": "2",
+          "unit": "dl"
+        },
+        {
+          "name": "Salt",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "Koka 2 min i lättsaltat vatten. Häll av."
+    },
+    {
+      "id": "veg-30",
+      "name": "Morötter (råa)",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 35,
+        "protein": 1,
+        "carbs": 8,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Morötter",
+          "amount": "3",
+          "unit": "st"
+        }
+      ],
+      "instructions": "Skala och skär i stavar eller skivor."
+    },
+    {
+      "id": "veg-31",
+      "name": "Sallad",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 15,
+        "protein": 1,
+        "carbs": 2,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Isbergssallad eller romansallad",
+          "amount": "0.5",
+          "unit": "huvud"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "Dela upp bladen, skölj och servera."
+    },
+    {
+      "id": "veg-32",
+      "name": "Paprika (rå)",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 25,
+        "protein": 1,
+        "carbs": 5,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Paprika",
+          "amount": "2",
+          "unit": "st"
+        }
+      ],
+      "instructions": "Kärna ur och skär i strimlor eller ringar."
+    },
+    {
+      "id": "veg-33",
+      "name": "Edamamebönor",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 110,
+        "protein": 9,
+        "carbs": 8,
+        "fat": 4
+      },
+      "ingredients": [
+        {
+          "name": "Frysta edamamebönor (utan skal)",
+          "amount": "200",
+          "unit": "g"
+        },
+        {
+          "name": "Salt",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "Koka 3 min, häll av och salta."
+    },
+    {
+      "id": "veg-34",
+      "name": "Avokado",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 120,
+        "protein": 1,
+        "carbs": 3,
+        "fat": 11
+      },
+      "ingredients": [
+        {
+          "name": "Avokado",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Citron eller lime",
+          "amount": "0.5",
+          "unit": "st"
+        },
+        {
+          "name": "Salt",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "Halvera, ta ur kärnan och skär i skivor. Pressa citron och salta."
+    },
+    {
+      "id": "veg-35",
+      "name": "Broccoli (kokt)",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 35,
+        "protein": 3,
+        "carbs": 5,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Broccoli",
+          "amount": "400",
+          "unit": "g"
+        },
+        {
+          "name": "Salt",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "Dela i buketter och koka 4 min i saltat vatten."
+    },
+    {
+      "id": "veg-36",
+      "name": "Blomkål (kokt)",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Blomkål",
+          "amount": "0.5",
+          "unit": "huvud"
+        },
+        {
+          "name": "Salt",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "Dela i buketter och koka 5 min i saltat vatten."
+    },
+    {
+      "id": "veg-37",
+      "name": "Spenat (färsk)",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 20,
+        "protein": 2,
+        "carbs": 2,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Färsk spenat",
+          "amount": "100",
+          "unit": "g"
+        },
+        {
+          "name": "Olivolja",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Salt",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "Skölj och servera råa som sallad, eller slaka snabbt i het panna."
+    },
+    {
+      "id": "veg-38",
+      "name": "Rödkål (syltad)",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 45,
+        "protein": 1,
+        "carbs": 10,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Inlagd rödkål (burk)",
+          "amount": "1",
+          "unit": "burk"
+        }
+      ],
+      "instructions": "Öppna och servera direkt — klassiskt tillbehör."
+    },
+    {
+      "id": "veg-39",
+      "name": "Haricots verts",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 30,
+        "protein": 2,
+        "carbs": 5,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Haricots verts (frysta)",
+          "amount": "300",
+          "unit": "g"
+        },
+        {
+          "name": "Salt",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "Koka 3–4 min i saltat vatten tills möra men krispiga."
+    },
+    {
+      "id": "veg-40",
+      "name": "Majs från kolv",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 130,
+        "protein": 3,
+        "carbs": 22,
+        "fat": 2
+      },
+      "ingredients": [
+        {
+          "name": "Majskolvar",
+          "amount": "4",
+          "unit": "st"
+        },
+        {
+          "name": "Salt",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "Koka i osaltat vatten 8–10 min. Salta vid servering."
+    },
+    {
+      "id": "veg-41",
+      "name": "Kidneybönor",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 110,
+        "protein": 7,
+        "carbs": 18,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Kidneybönor (burk)",
+          "amount": "1",
+          "unit": "burk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "Häll av och skölj. Servera kalla eller värm snabbt i panna."
+    },
+    {
+      "id": "veg-42",
+      "name": "Linser (kokta)",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 115,
+        "protein": 9,
+        "carbs": 20,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Kokta linser (burk)",
+          "amount": "1",
+          "unit": "burk"
+        },
+        {
+          "name": "Salt",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "Häll av, skölj och servera. Passar som proteinrikt tillbehör."
+    },
+    {
+      "id": "veg-43",
+      "name": "Rättika och morotsstrimlor",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 30,
+        "protein": 1,
+        "carbs": 6,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Morot",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Rättika (valfritt)",
+          "amount": "100",
+          "unit": "g"
+        },
+        {
+          "name": "Limejuice",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "Riv eller julienneskär morötter och rättika. Pressa lime och salta."
+    },
+    {
+      "id": "veg-44",
+      "name": "Picklad rödlök",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 30,
+        "protein": 0,
+        "carbs": 7,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Rödlök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Rödvinsvinäger",
+          "amount": "3",
+          "unit": "msk"
+        },
+        {
+          "name": "Socker",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Salt",
+          "amount": "0.5",
+          "unit": "tsk"
+        }
+      ],
+      "instructions": "Skiva löken tunt. Blanda vinäger, socker och salt, häll över löken. Redo efter 10 min, ännu bättre efter 30 min."
+    },
+    {
+      "id": "veg-45",
+      "name": "Vitkål (rå, strimlad)",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 25,
+        "protein": 1,
+        "carbs": 5,
+        "fat": 0
+      },
+      "ingredients": [
+        {
+          "name": "Vitkål",
+          "amount": "200",
+          "unit": "g"
+        },
+        {
+          "name": "Salt",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "Strimla fint. Salta och knåda lätt med händerna så den mjuknar lite."
     }
   ],
   "weekPlan": {
