@@ -4601,14 +4601,7 @@
   ],
   "weekPlan": {
     "monday": {
-      "breakfast": [
-        {
-          "id": "seed-6",
-          "portions": 4,
-          "person": "alla",
-          "role": "main"
-        }
-      ],
+      "breakfast": [],
       "lunch": [],
       "snack": [],
       "dinner": []
