@@ -2642,7 +2642,7 @@ function rsSelectById(item, recipeId) {
   const meal = state.weekPlan[dayKey][mealType] || [];
   if (!meal.find(en => en.id === recipeId && en.role === actualRole)) {
     const r = state.recipes.find(x => x.id === recipeId);
-    meal.push({ id: recipeId, portions: r?.servings || 4, person: 'alla', role: actualRole });
+    meal.push({ id: recipeId, portions: 3, person: 'alla', role: actualRole });
     state.weekPlan[dayKey][mealType] = meal;
     save();
     renderWeek();
@@ -2655,7 +2655,7 @@ function addToDay(dayKey, mealType, sel, role = 'main') {
   const meal = state.weekPlan[dayKey][mealType] || [];
   if (!meal.find(e => e.id === id && e.role === role)) {
     const r = state.recipes.find(x => x.id === id);
-    meal.push({ id, portions: r?.servings || 4, person: 'alla', role });
+    meal.push({ id, portions: 3, person: 'alla', role });
     state.weekPlan[dayKey][mealType] = meal;
     save();
     renderWeek();
@@ -2670,7 +2670,7 @@ function cyclePerson(dayKey, mealType, id, role = 'main') {
   entry.person = PERSONS[(idx + 1) % PERSONS.length].key;
   // Adjust portions: full recipe for "alla", 1 portion for a single person
   const r = state.recipes.find(x => x.id === id);
-  entry.portions = entry.person === 'alla' ? (r?.servings || 4) : 1;
+  entry.portions = entry.person === 'alla' ? 3 : 1;
   save();
   renderWeek();
 }
