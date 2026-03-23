@@ -2668,6 +2668,9 @@ function cyclePerson(dayKey, mealType, id, role = 'main') {
   if (!entry) return;
   const idx = PERSONS.findIndex(p => p.key === (entry.person || 'alla'));
   entry.person = PERSONS[(idx + 1) % PERSONS.length].key;
+  // Adjust portions: full recipe for "alla", 1 portion for a single person
+  const r = state.recipes.find(x => x.id === id);
+  entry.portions = entry.person === 'alla' ? (r?.servings || 4) : 1;
   save();
   renderWeek();
 }
