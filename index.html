@@ -2153,7 +2153,6 @@ function renderRecipes() {
 
     return `
       <div class="recipe-card${hasNovali ? ' novali' : ''}" onclick="viewRecipe('${r.id}')">
-        <div class="recipe-emoji">${emoji(r.id)}</div>
         <div class="recipe-name">${esc(r.name)}</div>
         <div class="recipe-badges">
           <span class="badge">👤 ${r.servings} port.</span>
@@ -2191,7 +2190,7 @@ function viewRecipe(id) {
   if (!r) return;
   _viewId = id;
 
-  document.getElementById('view-title').textContent = `${emoji(id)} ${r.name}`;
+  document.getElementById('view-title').textContent = r.name;
 
   const ings = r.ingredients.map(i => `
     <li class="ing-detail-item">

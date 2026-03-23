@@ -5,7 +5,6 @@
       "name": "Linsgryta med kokos och curry",
       "servings": 4,
       "flags": [
-        "gronsak",
         "novali",
         "billigt",
         "lagarSigSjalv"
@@ -2543,7 +2542,6 @@
       "servings": 4,
       "flags": [
         "lagarSigSjalv",
-        "gronsak",
         "novali",
         "billigt"
       ],
@@ -2618,7 +2616,6 @@
       "servings": 2,
       "flags": [
         "under15",
-        "gronsak",
         "novali"
       ],
       "macros": {
@@ -2672,7 +2669,6 @@
       "servings": 4,
       "flags": [
         "under30",
-        "gronsak",
         "novali"
       ],
       "macros": {
@@ -2741,7 +2737,6 @@
       "servings": 4,
       "flags": [
         "under30",
-        "gronsak",
         "novali",
         "billigt"
       ],
@@ -2862,6 +2857,1139 @@
         }
       ],
       "instructions": "1. Sätt ugnen på 220 °C. Skär potatisen i klyftor, blanda med olja, salt och peppar. Rosta 25 min.\n2. Vänd torsken i mjöl, salta och peppra. Stek i olja 3 min per sida.\n3. Blanda majonnäs med hackad kapris, dill och pressad citron.\n4. Servera torsken med potatisklyftorna och remouladen."
+    },
+    {
+      "id": "veg-1",
+      "name": "Ångad broccoli med citronsmör",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 90,
+        "protein": 4,
+        "carbs": 6,
+        "fat": 6
+      },
+      "ingredients": [
+        {
+          "name": "Broccoli",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Smör",
+          "amount": "30",
+          "unit": "g"
+        },
+        {
+          "name": "Citron",
+          "amount": "0.5",
+          "unit": "st"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Dela broccolin i buketter.\n2. Ånga eller koka 4–5 min tills mjuk men fortfarande har tuggmotstånd.\n3. Smält smöret, pressa i citron. Häll över broccolin."
+    },
+    {
+      "id": "veg-2",
+      "name": "Ugnsrostade morötter med honung och timjan",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under30",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 110,
+        "protein": 1,
+        "carbs": 18,
+        "fat": 4
+      },
+      "ingredients": [
+        {
+          "name": "Morötter",
+          "amount": "600",
+          "unit": "g"
+        },
+        {
+          "name": "Olivolja",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Honung",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Timjan (torkad)",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Sätt ugnen på 200 °C.\n2. Skär morötterna på längden. Blanda med olja, honung, timjan, salt och peppar.\n3. Rosta 20–25 min tills mjuka och lätt karamelliserade."
+    },
+    {
+      "id": "veg-3",
+      "name": "Tomatsallad med basilika och olivolja",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 80,
+        "protein": 1,
+        "carbs": 6,
+        "fat": 6
+      },
+      "ingredients": [
+        {
+          "name": "Tomater",
+          "amount": "4",
+          "unit": "st"
+        },
+        {
+          "name": "Olivolja",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Färsk basilika",
+          "amount": "1",
+          "unit": "näve"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        },
+        {
+          "name": "Balsamvinäger (valfritt)",
+          "amount": "1",
+          "unit": "tsk"
+        }
+      ],
+      "instructions": "1. Skiva tomaterna.\n2. Ringla olivolja, strö basilika och smaka av med salt och peppar.\n3. Låt stå 5 min innan servering."
+    },
+    {
+      "id": "veg-4",
+      "name": "Gurksallad med dill och gräddfil",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 70,
+        "protein": 2,
+        "carbs": 5,
+        "fat": 5
+      },
+      "ingredients": [
+        {
+          "name": "Gurka",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Gräddfil",
+          "amount": "1",
+          "unit": "dl"
+        },
+        {
+          "name": "Dill (fryst eller färsk)",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Vitlöksklyfta",
+          "amount": "0.5",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        },
+        {
+          "name": "Citron",
+          "amount": "0.5",
+          "unit": "st"
+        }
+      ],
+      "instructions": "1. Skiva gurkan tunt (mandolin eller kniv).\n2. Blanda gräddfil, dill, riven vitlök och citron.\n3. Vänd gurkan i såsen, smaka av och låt dra 5 min."
+    },
+    {
+      "id": "veg-5",
+      "name": "Koleslaw med äpple",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 100,
+        "protein": 1,
+        "carbs": 12,
+        "fat": 5
+      },
+      "ingredients": [
+        {
+          "name": "Vitkål",
+          "amount": "300",
+          "unit": "g"
+        },
+        {
+          "name": "Morötter",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Äpple",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Majonnäs",
+          "amount": "3",
+          "unit": "msk"
+        },
+        {
+          "name": "Äppelcidervinäger",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        },
+        {
+          "name": "Socker",
+          "amount": "1",
+          "unit": "tsk"
+        }
+      ],
+      "instructions": "1. Strimla kålen fint, riv morötterna och skär äpplet i tunna skivor.\n2. Blanda majonnäs, vinäger, socker, salt och peppar.\n3. Vänd grönsaker och äpple i dressingen. Kyl gärna 15 min."
+    },
+    {
+      "id": "veg-6",
+      "name": "Ugnsrostad blomkål med parmesan",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under30",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 120,
+        "protein": 6,
+        "carbs": 8,
+        "fat": 7
+      },
+      "ingredients": [
+        {
+          "name": "Blomkål",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Olivolja",
+          "amount": "3",
+          "unit": "msk"
+        },
+        {
+          "name": "Riven parmesan",
+          "amount": "40",
+          "unit": "g"
+        },
+        {
+          "name": "Vitlökspulver",
+          "amount": "0.5",
+          "unit": "tsk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Sätt ugnen på 220 °C.\n2. Dela blomkålen i buketter, blanda med olja, vitlökspulver, salt och peppar.\n3. Rosta 20 min. Strö parmesan över de sista 5 minuterna."
+    },
+    {
+      "id": "veg-7",
+      "name": "Sautéad spenat med vitlök och citron",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 60,
+        "protein": 3,
+        "carbs": 3,
+        "fat": 4
+      },
+      "ingredients": [
+        {
+          "name": "Färsk eller fryst spenat",
+          "amount": "300",
+          "unit": "g"
+        },
+        {
+          "name": "Vitlöksklyftor",
+          "amount": "2",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Olivolja",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Citron",
+          "amount": "0.5",
+          "unit": "st"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Hetta upp olja i panna, lägg i pressad vitlök 30 sek.\n2. Lägg i spenaten och rör tills den faller ihop, ca 2 min.\n3. Pressa citron, salta och peppra."
+    },
+    {
+      "id": "veg-8",
+      "name": "Ugnsrostad paprika med olivolja",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under30",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 80,
+        "protein": 1,
+        "carbs": 8,
+        "fat": 5
+      },
+      "ingredients": [
+        {
+          "name": "Röd och gul paprika",
+          "amount": "4",
+          "unit": "st"
+        },
+        {
+          "name": "Olivolja",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Vitlöksklyftor",
+          "amount": "2",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Sätt ugnen på 220 °C.\n2. Dela paprikan i breda strimlor, blanda med olja, vitlök, salt och peppar.\n3. Rosta 20–25 min tills mjuka och lätt svedda i kanterna."
+    },
+    {
+      "id": "veg-9",
+      "name": "Sockerärtor med sesamolja och sesamfrön",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 75,
+        "protein": 3,
+        "carbs": 7,
+        "fat": 4
+      },
+      "ingredients": [
+        {
+          "name": "Sockerärtor",
+          "amount": "300",
+          "unit": "g"
+        },
+        {
+          "name": "Sesamolja",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Glutenfri soja",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Sesamfrön",
+          "amount": "1",
+          "unit": "msk"
+        }
+      ],
+      "instructions": "1. Woka sockerärtor i het panna 2–3 min — de ska behålla sitt tuggmotstånd.\n2. Häll i sesamolja och soja. Rör om.\n3. Strö sesamfrön över vid servering."
+    },
+    {
+      "id": "veg-10",
+      "name": "Ugnsrostad squash med oregano",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under30",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 70,
+        "protein": 2,
+        "carbs": 7,
+        "fat": 4
+      },
+      "ingredients": [
+        {
+          "name": "Squash (zucchini)",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Olivolja",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Oregano",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Vitlökspulver",
+          "amount": "0.5",
+          "unit": "tsk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Sätt ugnen på 200 °C.\n2. Skär squashen i halvcentimetertjocka skivor.\n3. Blanda med olja, oregano, vitlökspulver, salt och peppar.\n4. Rosta 18–22 min tills gyllene."
+    },
+    {
+      "id": "veg-11",
+      "name": "Blandad sallad med citronvinägrett",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 90,
+        "protein": 2,
+        "carbs": 6,
+        "fat": 7
+      },
+      "ingredients": [
+        {
+          "name": "Blandad sallad (isbergssallad, rucola)",
+          "amount": "100",
+          "unit": "g"
+        },
+        {
+          "name": "Gurka",
+          "amount": "0.5",
+          "unit": "st"
+        },
+        {
+          "name": "Tomat",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Olivolja",
+          "amount": "3",
+          "unit": "msk"
+        },
+        {
+          "name": "Citron",
+          "amount": "0.5",
+          "unit": "st"
+        },
+        {
+          "name": "Dijonsenap (glutenfri)",
+          "amount": "0.5",
+          "unit": "tsk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Hacka grönsaker och lägg i skål.\n2. Vispa ihop olivolja, citronsaft, senap, salt och peppar.\n3. Häll dressingen över precis innan servering."
+    },
+    {
+      "id": "veg-12",
+      "name": "Ångade gröna bönor med smör och mandel",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 95,
+        "protein": 3,
+        "carbs": 6,
+        "fat": 7
+      },
+      "ingredients": [
+        {
+          "name": "Gröna bönor (haricots verts)",
+          "amount": "400",
+          "unit": "g"
+        },
+        {
+          "name": "Smör",
+          "amount": "25",
+          "unit": "g"
+        },
+        {
+          "name": "Mandelspån",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Ånga bönorna 4–5 min tills de är möra men krispiga.\n2. Rosta mandelspånen torrt i panna tills gyllene.\n3. Blanda bönor med smör, toppa med mandel."
+    },
+    {
+      "id": "veg-13",
+      "name": "Råriv på morot och äpple",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 80,
+        "protein": 1,
+        "carbs": 14,
+        "fat": 2
+      },
+      "ingredients": [
+        {
+          "name": "Morötter",
+          "amount": "3",
+          "unit": "st"
+        },
+        {
+          "name": "Äpple",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Citron",
+          "amount": "0.5",
+          "unit": "st"
+        },
+        {
+          "name": "Olivolja",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Honung",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Salt",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Riv morötter och äpple grovt.\n2. Pressa citron, ringla olja och honung.\n3. Blanda och smaka av med salt."
+    },
+    {
+      "id": "veg-14",
+      "name": "Mjukstekta champinjoner med timjan",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 70,
+        "protein": 3,
+        "carbs": 3,
+        "fat": 5
+      },
+      "ingredients": [
+        {
+          "name": "Champinjoner",
+          "amount": "400",
+          "unit": "g"
+        },
+        {
+          "name": "Smör",
+          "amount": "30",
+          "unit": "g"
+        },
+        {
+          "name": "Vitlöksklyftor",
+          "amount": "2",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Timjan",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Halvera champinjonerna.\n2. Stek i smör på hög värme tills gyllene, ca 5 min — rör inte för ofta.\n3. Lägg i vitlök och timjan de sista minuterna. Salta och peppra."
+    },
+    {
+      "id": "veg-15",
+      "name": "Majs från kolven med örtssmör",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 140,
+        "protein": 3,
+        "carbs": 22,
+        "fat": 6
+      },
+      "ingredients": [
+        {
+          "name": "Majskolvar",
+          "amount": "4",
+          "unit": "st"
+        },
+        {
+          "name": "Smör",
+          "amount": "40",
+          "unit": "g"
+        },
+        {
+          "name": "Persilja",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Koka majskolvar 8–10 min i saltat vatten.\n2. Blanda smöret med hackad persilja.\n3. Gnid örtsmöret över de varma kolven."
+    },
+    {
+      "id": "veg-16",
+      "name": "Ugnsrostad sötpotatis med kanel",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under30",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 160,
+        "protein": 2,
+        "carbs": 30,
+        "fat": 4
+      },
+      "ingredients": [
+        {
+          "name": "Sötpotatis",
+          "amount": "600",
+          "unit": "g"
+        },
+        {
+          "name": "Olivolja",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Kanel",
+          "amount": "0.5",
+          "unit": "tsk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Sätt ugnen på 200 °C.\n2. Skär sötpotatisen i klyftor.\n3. Blanda med olja, kanel, salt och peppar.\n4. Rosta 25 min tills mjuk och lätt karamelliserad."
+    },
+    {
+      "id": "veg-17",
+      "name": "Rödbetssallad med fetaost och valnötter",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 130,
+        "protein": 4,
+        "carbs": 10,
+        "fat": 9
+      },
+      "ingredients": [
+        {
+          "name": "Kokta rödbetor",
+          "amount": "400",
+          "unit": "g"
+        },
+        {
+          "name": "Fetaost",
+          "amount": "80",
+          "unit": "g"
+        },
+        {
+          "name": "Valnötter",
+          "amount": "30",
+          "unit": "g"
+        },
+        {
+          "name": "Olivolja",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Balsamvinäger",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Skär rödbetorna i klyftor.\n2. Lägg upp med smulad fetaost och hackade valnötter.\n3. Ringla olivolja och balsamvinäger."
+    },
+    {
+      "id": "veg-18",
+      "name": "Guacamole",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 120,
+        "protein": 1,
+        "carbs": 6,
+        "fat": 10
+      },
+      "ingredients": [
+        {
+          "name": "Avokado",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Lime",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Vitlöksklyfta",
+          "amount": "1",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Röd lök",
+          "amount": "0.25",
+          "unit": "st"
+        },
+        {
+          "name": "Koriander (valfritt)",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Mosa avokadon med en gaffel.\n2. Pressa lime, finhacka lök och vitlök.\n3. Blanda allt. Smaka av med salt.\n4. Lägg avokadokärnan i skålen för att hålla färgen."
+    },
+    {
+      "id": "veg-19",
+      "name": "Ångad romanesco med vitlök och olja",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 75,
+        "protein": 3,
+        "carbs": 7,
+        "fat": 4
+      },
+      "ingredients": [
+        {
+          "name": "Romanesco (eller blomkål)",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Olivolja",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Vitlöksklyftor",
+          "amount": "2",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Chiliflakes (valfritt)",
+          "amount": "1",
+          "unit": "krm"
+        },
+        {
+          "name": "Salt",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Dela i buketter och ånga 6–7 min.\n2. Hetta upp olja med skivad vitlök och chili tills vitlöken är gyllene.\n3. Häll oljan över grönsakerna."
+    },
+    {
+      "id": "veg-20",
+      "name": "Tzatziki",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 80,
+        "protein": 4,
+        "carbs": 5,
+        "fat": 5
+      },
+      "ingredients": [
+        {
+          "name": "Turkisk yoghurt",
+          "amount": "2",
+          "unit": "dl"
+        },
+        {
+          "name": "Gurka",
+          "amount": "0.5",
+          "unit": "st"
+        },
+        {
+          "name": "Vitlöksklyftor",
+          "amount": "1",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Dill eller mynta",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Olivolja",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Riv gurkan grovt, pressa ut vätskan ordentligt.\n2. Blanda yoghurt, gurka, pressad vitlök och örter.\n3. Ringla olivolja, smaka av."
+    },
+    {
+      "id": "veg-21",
+      "name": "Ugnsrostad sparris med parmesan",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 85,
+        "protein": 5,
+        "carbs": 4,
+        "fat": 5
+      },
+      "ingredients": [
+        {
+          "name": "Grön sparris",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Olivolja",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Riven parmesan",
+          "amount": "30",
+          "unit": "g"
+        },
+        {
+          "name": "Citron",
+          "amount": "0.5",
+          "unit": "st"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Sätt ugnen på 220 °C.\n2. Lägg sparrisen på bakplåt, ringla olja, salta och peppra.\n3. Rosta 10–12 min. Strö parmesan och pressa citron över."
+    },
+    {
+      "id": "veg-22",
+      "name": "Potatissallad med senap och gräslök",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under30",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 170,
+        "protein": 3,
+        "carbs": 28,
+        "fat": 6
+      },
+      "ingredients": [
+        {
+          "name": "Potatis (fast sort)",
+          "amount": "700",
+          "unit": "g"
+        },
+        {
+          "name": "Majonnäs",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Dijonsenap (glutenfri)",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Gräslök",
+          "amount": "3",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Koka potatisen med skalet, ca 15 min. Låt svalna.\n2. Skala och skär i bitar.\n3. Blanda med majonnäs, senap och gräslök. Smaka av."
+    },
+    {
+      "id": "veg-23",
+      "name": "Stekta sockermajs med smör och salt",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 110,
+        "protein": 2,
+        "carbs": 16,
+        "fat": 5
+      },
+      "ingredients": [
+        {
+          "name": "Sockermajs (burk, avrunnen)",
+          "amount": "2",
+          "unit": "burk"
+        },
+        {
+          "name": "Smör",
+          "amount": "20",
+          "unit": "g"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Stek majs i smör på medelhög värme tills lätt gyllene, 4–5 min.\n2. Salta och peppra. Servera direkt."
+    },
+    {
+      "id": "veg-24",
+      "name": "Mjukrostade vitlöksrovor",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under30",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 80,
+        "protein": 2,
+        "carbs": 12,
+        "fat": 3
+      },
+      "ingredients": [
+        {
+          "name": "Morötter",
+          "amount": "300",
+          "unit": "g"
+        },
+        {
+          "name": "Palsternacka",
+          "amount": "200",
+          "unit": "g"
+        },
+        {
+          "name": "Rotselleri",
+          "amount": "150",
+          "unit": "g"
+        },
+        {
+          "name": "Olivolja",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Timjan",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Sätt ugnen på 200 °C.\n2. Skär rotfrukter i jämnstora bitar.\n3. Blanda med olja, timjan, salt och peppar.\n4. Rosta 25 min tills mjuka och gyllene."
+    },
+    {
+      "id": "veg-25",
+      "name": "Rucola- och päronsallad med valnötter",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "under15",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 115,
+        "protein": 2,
+        "carbs": 8,
+        "fat": 9
+      },
+      "ingredients": [
+        {
+          "name": "Rucola",
+          "amount": "60",
+          "unit": "g"
+        },
+        {
+          "name": "Päron",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Valnötter",
+          "amount": "30",
+          "unit": "g"
+        },
+        {
+          "name": "Olivolja",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Balsamvinäger",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Lägg rucolaen i en skål.\n2. Skär päronet i tunna skivor och lägg ovanpå.\n3. Strö valnötter, ringla olivolja och balsamvinäger."
     }
   ],
   "weekPlan": {
