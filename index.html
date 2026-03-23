@@ -2503,7 +2503,7 @@ function renderWeek() {
           : `<div class="rs-wrap" data-day="${day.key}" data-meal="${meal.key}" data-role="frukost">
               <input class="rs-input" type="text" placeholder="+ Välj ${meal.label.toLowerCase()}…"
                 oninput="rsFilter(this)" onfocus="rsOpen(this)" onblur="rsBlur(this)" onkeydown="rsKeydown(this,event)" autocomplete="off">
-              <div class="rs-dropdown" onmousedown="event.preventDefault()" ontouchstart="event.preventDefault()"></div>
+              <div class="rs-dropdown""></div>
             </div>`;
         return `
           <div class="meal-section">
@@ -2531,13 +2531,13 @@ function renderWeek() {
         const mainSel = `<div class="rs-wrap" data-day="${day.key}" data-meal="${meal.key}" data-role="main">
           <input class="rs-input" type="text" placeholder="+ Välj recept…"
             oninput="rsFilter(this)" onfocus="rsOpen(this)" onblur="rsBlur(this)" onkeydown="rsKeydown(this,event)" autocomplete="off">
-          <div class="rs-dropdown" onmousedown="event.preventDefault()" ontouchstart="event.preventDefault()"></div>
+          <div class="rs-dropdown""></div>
         </div>`;
 
         const sideSel = availableSides.length ? `<div class="rs-wrap rs-side" data-day="${day.key}" data-meal="${meal.key}" data-role="side">
           <input class="rs-input" type="text" placeholder="+ Lägg till grönsak…"
             oninput="rsFilter(this)" onfocus="rsOpen(this)" onblur="rsBlur(this)" onkeydown="rsKeydown(this,event)" autocomplete="off">
-          <div class="rs-dropdown" onmousedown="event.preventDefault()" ontouchstart="event.preventDefault()"></div>
+          <div class="rs-dropdown""></div>
         </div>` : '';
 
         return `
@@ -2617,7 +2617,7 @@ function rsPopulate(input) {
   if (q) recipes = recipes.filter(r => r.name.toLowerCase().includes(q));
   const dropdown = input.nextElementSibling;
   dropdown.innerHTML = recipes.length
-    ? recipes.map(r => `<div class="rs-item" onclick="rsSelectById(this,'${r.id}')">${esc(r.name)}</div>`).join('')
+    ? recipes.map(r => `<div class="rs-item" onmousedown="event.preventDefault()" onclick="rsSelectById(this,'${r.id}')" ontouchend="rsSelectById(this,'${r.id}')">${esc(r.name)}</div>`).join('')
     : `<div class="rs-empty">Inga recept hittades</div>`;
   dropdown.style.display = 'block';
 }
