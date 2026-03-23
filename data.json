@@ -1,0 +1,2915 @@
+{
+  "recipes": [
+    {
+      "id": "seed-1",
+      "name": "Linsgryta med kokos och curry",
+      "servings": 4,
+      "flags": [
+        "gronsak",
+        "novali",
+        "billigt",
+        "lagarSigSjalv"
+      ],
+      "macros": {
+        "kcal": 420,
+        "protein": 18,
+        "carbs": 52,
+        "fat": 14
+      },
+      "ingredients": [
+        {
+          "name": "Röda linser",
+          "amount": "2.5",
+          "unit": "dl"
+        },
+        {
+          "name": "Gul lök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Vitlöksklyftor",
+          "amount": "2",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Morötter",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Kokosmjölk",
+          "amount": "1",
+          "unit": "burk"
+        },
+        {
+          "name": "Vatten",
+          "amount": "4",
+          "unit": "dl"
+        },
+        {
+          "name": "Krossade tomater",
+          "amount": "1",
+          "unit": "burk"
+        },
+        {
+          "name": "Curry",
+          "amount": "1.5",
+          "unit": "msk"
+        },
+        {
+          "name": "Gurkmeja",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Grönsaksbuljongtärning (glutenfri)",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        },
+        {
+          "name": "Olja",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Spenat eller frysta ärtor (valfritt)",
+          "amount": "1",
+          "unit": "näve"
+        }
+      ],
+      "instructions": "1. Fräs lök, vitlök och curry i lite olja tills det doftar gott.\n2. Tillsätt morötter, linser, kokosmjölk, vatten, krossade tomater och buljong.\n3. Låt sjuda i ca 15–20 minuter tills linserna är mjuka.\n4. Smaka av med salt, peppar och ev. mer curry.\n5. Rör ner spenat eller ärtor på slutet om du vill."
+    },
+    {
+      "id": "seed-2",
+      "name": "Kycklinggryta med paprika och crème fraîche",
+      "servings": 4,
+      "flags": [
+        "novali",
+        "lagarSigSjalv"
+      ],
+      "macros": {
+        "kcal": 480,
+        "protein": 38,
+        "carbs": 10,
+        "fat": 30
+      },
+      "ingredients": [
+        {
+          "name": "Kycklingfilé eller lårfilé",
+          "amount": "600",
+          "unit": "g"
+        },
+        {
+          "name": "Paprika",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Gul lök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Vitlöksklyftor",
+          "amount": "2",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Crème fraîche",
+          "amount": "2.5",
+          "unit": "dl"
+        },
+        {
+          "name": "Vatten eller matlagningsgrädde",
+          "amount": "1",
+          "unit": "dl"
+        },
+        {
+          "name": "Paprikapulver",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Oregano",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Kycklingbuljongtärning (glutenfri)",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        },
+        {
+          "name": "Olja",
+          "amount": "1",
+          "unit": "msk"
+        }
+      ],
+      "instructions": "1. Stek kycklingen i olja tills den får färg. Salta och peppra.\n2. Lägg i lök, vitlök och paprika och fräs några minuter.\n3. Tillsätt paprikapulver och oregano.\n4. Häll i crème fraîche + vatten/grädde och smula i buljong.\n5. Låt sjuda i 10–15 minuter tills kycklingen är genomstekt och såsen tjocknat.\n6. Smaka av med salt och peppar.\n\nServera med ris, potatis eller glutenfri pasta.\nMatlådetips: Håller sig 3–4 dagar i kylen och blir krämigare i låda."
+    },
+    {
+      "id": "seed-3",
+      "name": "Kyckling med jordnötssås",
+      "servings": 4,
+      "flags": [
+        "under30"
+      ],
+      "macros": {
+        "kcal": 510,
+        "protein": 40,
+        "carbs": 8,
+        "fat": 32
+      },
+      "ingredients": [
+        {
+          "name": "Kyckling",
+          "amount": "600",
+          "unit": "g"
+        },
+        {
+          "name": "Kokosmjölk",
+          "amount": "1",
+          "unit": "burk"
+        },
+        {
+          "name": "Jordnötssmör",
+          "amount": "3",
+          "unit": "msk"
+        },
+        {
+          "name": "Glutenfri soja",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Sambal (valfritt)",
+          "amount": "1",
+          "unit": "tsk"
+        }
+      ],
+      "instructions": "1. Stek kycklingen.\n2. Blanda kokosmjölk, jordnötssmör och soja i pannan.\n3. Sjud tills såsen tjocknar."
+    },
+    {
+      "id": "seed-4",
+      "name": "Kycklingfärsbiffar med fetaost",
+      "servings": 4,
+      "flags": [
+        "under30"
+      ],
+      "macros": {
+        "kcal": 390,
+        "protein": 35,
+        "carbs": 2,
+        "fat": 25
+      },
+      "ingredients": [
+        {
+          "name": "Kycklingfärs",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Fetaost",
+          "amount": "150",
+          "unit": "g"
+        },
+        {
+          "name": "Ägg",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Oregano",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Blanda färs, fetaost, ägg och kryddor.\n2. Forma biffar och stek 4–5 min per sida.\n3. Servera med ris eller potatis."
+    },
+    {
+      "id": "seed-5",
+      "name": "Enkel gräddsås med örter",
+      "servings": 4,
+      "flags": [
+        "under15",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 180,
+        "protein": 2,
+        "carbs": 3,
+        "fat": 18
+      },
+      "ingredients": [
+        {
+          "name": "Grädde",
+          "amount": "2.5",
+          "unit": "dl"
+        },
+        {
+          "name": "Kycklingfond",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Soja",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Oregano eller persilja",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "Koka upp grädden, rör i fond, soja och kryddor. Sjud 5 minuter. Klart."
+    },
+    {
+      "id": "seed-6",
+      "name": "Glutenfria pannkakor",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali",
+        "billigt",
+        "fruktostMellanmal"
+      ],
+      "macros": {
+        "kcal": 310,
+        "protein": 10,
+        "carbs": 38,
+        "fat": 12
+      },
+      "ingredients": [
+        {
+          "name": "Rismjöl",
+          "amount": "2",
+          "unit": "dl"
+        },
+        {
+          "name": "Maizena",
+          "amount": "0.5",
+          "unit": "dl"
+        },
+        {
+          "name": "Ägg",
+          "amount": "3",
+          "unit": "st"
+        },
+        {
+          "name": "Mjölk",
+          "amount": "4",
+          "unit": "dl"
+        },
+        {
+          "name": "Smör",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Vispa ihop rismjöl, maizena, ägg och lite mjölk till en slät smet.\n2. Tillsätt resten av mjölken och smält smör. Låt svälla 5 minuter.\n3. Stek tunna pannkakor i smör på medelvärme ca 2 min per sida.\n4. Servera med sylt, bär eller banan."
+    },
+    {
+      "id": "seed-7",
+      "name": "Laxfilé med citronsmör och potatis",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 480,
+        "protein": 36,
+        "carbs": 28,
+        "fat": 24
+      },
+      "ingredients": [
+        {
+          "name": "Laxfilé",
+          "amount": "600",
+          "unit": "g"
+        },
+        {
+          "name": "Potatis",
+          "amount": "800",
+          "unit": "g"
+        },
+        {
+          "name": "Smör",
+          "amount": "50",
+          "unit": "g"
+        },
+        {
+          "name": "Citron",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Dill (färsk eller fryst)",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Koka potatisen ca 15–20 min.\n2. Salta och peppra laxen. Stek i stekpanna 3–4 min per sida på medelhög värme.\n3. Smält smöret i en liten kastrull, pressa i citronen och rör ner dillen.\n4. Häll citronsmöret över laxen och servera med potatisen."
+    },
+    {
+      "id": "seed-8",
+      "name": "Tacos med kryddad köttfärs",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 520,
+        "protein": 32,
+        "carbs": 40,
+        "fat": 22
+      },
+      "ingredients": [
+        {
+          "name": "Nötfärs",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Glutenfria tacosskål eller majstortilla",
+          "amount": "12",
+          "unit": "st"
+        },
+        {
+          "name": "Gul lök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Vitlöksklyfta",
+          "amount": "1",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Tomatpuré",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Spiskummin",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Paprikapulver",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        },
+        {
+          "name": "Riven ost",
+          "amount": "100",
+          "unit": "g"
+        },
+        {
+          "name": "Sallad, tomat, gräddfil",
+          "amount": "1",
+          "unit": "portion"
+        }
+      ],
+      "instructions": "1. Fräs lök och vitlök i olja. Tillsätt färsen och bryn ordentligt.\n2. Krydda med spiskummin, paprikapulver, tomatpuré, salt och peppar.\n3. Låt puttra 5 minuter.\n4. Servera i glutenfria tacos med ost, sallad, tomat och gräddfil."
+    },
+    {
+      "id": "seed-9",
+      "name": "Glutenfria köttbullar",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 450,
+        "protein": 30,
+        "carbs": 18,
+        "fat": 28
+      },
+      "ingredients": [
+        {
+          "name": "Blandfärs (gris/nöt)",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Ägg",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Riven lök",
+          "amount": "0.5",
+          "unit": "st"
+        },
+        {
+          "name": "Glutenfritt ströbröd",
+          "amount": "3",
+          "unit": "msk"
+        },
+        {
+          "name": "Mjölk",
+          "amount": "3",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        },
+        {
+          "name": "Allkrydda",
+          "amount": "0.5",
+          "unit": "tsk"
+        },
+        {
+          "name": "Smör till stekning",
+          "amount": "2",
+          "unit": "msk"
+        }
+      ],
+      "instructions": "1. Blöt ströbrödet i mjölken ett par minuter.\n2. Blanda all ingredienser. Forma till jämna bollar.\n3. Stek i smör på medelvärme, skaka pannan så de rundas. Ca 8–10 min totalt.\n4. Servera med potatismos, lingonsylt och gräddsås (se seed-5)."
+    },
+    {
+      "id": "seed-10",
+      "name": "Kycklingwok med grönsaker och ris",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 430,
+        "protein": 38,
+        "carbs": 42,
+        "fat": 10
+      },
+      "ingredients": [
+        {
+          "name": "Kycklingfilé",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Broccoli",
+          "amount": "300",
+          "unit": "g"
+        },
+        {
+          "name": "Paprika",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Morötter",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Glutenfri soja",
+          "amount": "3",
+          "unit": "msk"
+        },
+        {
+          "name": "Sesamolja",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Vitlöksklyftor",
+          "amount": "2",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Ingefärspulver",
+          "amount": "0.5",
+          "unit": "tsk"
+        },
+        {
+          "name": "Kokt ris",
+          "amount": "4",
+          "unit": "dl"
+        }
+      ],
+      "instructions": "1. Koka ris enligt förpackning.\n2. Skär kycklingen i bitar. Woka i het olja 4–5 min tills genomstekt.\n3. Lägg i grönsaker och vitlök, woka ytterligare 4–5 min.\n4. Häll i soja, sesamolja och ingefärspulver. Rör ihop.\n5. Servera över riset."
+    },
+    {
+      "id": "seed-11",
+      "name": "Äggröra med skinka och ost",
+      "servings": 2,
+      "flags": [
+        "under15",
+        "novali",
+        "fruktostMellanmal"
+      ],
+      "macros": {
+        "kcal": 320,
+        "protein": 24,
+        "carbs": 2,
+        "fat": 24
+      },
+      "ingredients": [
+        {
+          "name": "Ägg",
+          "amount": "4",
+          "unit": "st"
+        },
+        {
+          "name": "Skinka i tärningar",
+          "amount": "100",
+          "unit": "g"
+        },
+        {
+          "name": "Riven ost",
+          "amount": "50",
+          "unit": "g"
+        },
+        {
+          "name": "Smör",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        },
+        {
+          "name": "Gräslök (valfritt)",
+          "amount": "1",
+          "unit": "msk"
+        }
+      ],
+      "instructions": "1. Vispa äggen lätt med salt och peppar.\n2. Smält smöret i pannan på låg–medelvärme.\n3. Häll i äggen och rör sakta med en slickepott tills de stelnat mjukt.\n4. Rör ner skinka och ost på slutet. Strö över gräslök."
+    },
+    {
+      "id": "seed-12",
+      "name": "Laxsoppa med potatis och dill",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 390,
+        "protein": 28,
+        "carbs": 30,
+        "fat": 16
+      },
+      "ingredients": [
+        {
+          "name": "Lax i bitar",
+          "amount": "400",
+          "unit": "g"
+        },
+        {
+          "name": "Potatis",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Gul lök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Grädde",
+          "amount": "2",
+          "unit": "dl"
+        },
+        {
+          "name": "Fiskbuljong (glutenfri)",
+          "amount": "7",
+          "unit": "dl"
+        },
+        {
+          "name": "Dill (färsk eller fryst)",
+          "amount": "3",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Fräs lök i olja. Tillsätt buljong och potatistärningar.\n2. Koka 12–15 min tills potatisen är mjuk.\n3. Häll i grädde och lägg i laxbitarna. Sjud 5 min.\n4. Rör ner dill. Smaka av med salt och peppar."
+    },
+    {
+      "id": "seed-13",
+      "name": "Pasta bolognese med glutenfri pasta",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 520,
+        "protein": 30,
+        "carbs": 58,
+        "fat": 16
+      },
+      "ingredients": [
+        {
+          "name": "Glutenfri pasta (ris- eller majs)",
+          "amount": "400",
+          "unit": "g"
+        },
+        {
+          "name": "Nötfärs",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Krossade tomater",
+          "amount": "1",
+          "unit": "burk"
+        },
+        {
+          "name": "Gul lök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Vitlöksklyftor",
+          "amount": "2",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Tomatpuré",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Oregano",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        },
+        {
+          "name": "Riven parmesan",
+          "amount": "50",
+          "unit": "g"
+        }
+      ],
+      "instructions": "1. Koka pastan enligt förpackning.\n2. Fräs lök och vitlök. Bryn färsen ordentligt.\n3. Tillsätt tomatpuré, krossade tomater och oregano. Sjud 10 min.\n4. Servera med pasta och parmesan."
+    },
+    {
+      "id": "seed-14",
+      "name": "Kyckling tikka masala",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 490,
+        "protein": 40,
+        "carbs": 18,
+        "fat": 28
+      },
+      "ingredients": [
+        {
+          "name": "Kycklingfilé",
+          "amount": "600",
+          "unit": "g"
+        },
+        {
+          "name": "Krossade tomater",
+          "amount": "1",
+          "unit": "burk"
+        },
+        {
+          "name": "Kokosmjölk",
+          "amount": "2",
+          "unit": "dl"
+        },
+        {
+          "name": "Gul lök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Vitlöksklyftor",
+          "amount": "2",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Tikka masala-kryddblandning (glutenfri)",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Ingefärspulver",
+          "amount": "0.5",
+          "unit": "tsk"
+        },
+        {
+          "name": "Olja",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Stek kycklingen i bitar i olja tills gyllene. Ta upp.\n2. Fräs lök, vitlök och tikka masala-krydda i samma panna.\n3. Tillsätt krossade tomater, kokosmjölk och ingefärspulver.\n4. Lägg tillbaka kycklingen och sjud 15 min. Servera med ris."
+    },
+    {
+      "id": "seed-15",
+      "name": "Bananpannkakor (2 ingredienser)",
+      "servings": 2,
+      "flags": [
+        "under15",
+        "novali",
+        "billigt",
+        "fruktostMellanmal"
+      ],
+      "macros": {
+        "kcal": 240,
+        "protein": 8,
+        "carbs": 36,
+        "fat": 7
+      },
+      "ingredients": [
+        {
+          "name": "Mogen banan",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Ägg",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Smör till stekning",
+          "amount": "1",
+          "unit": "msk"
+        }
+      ],
+      "instructions": "1. Mosa bananerna med en gaffel.\n2. Vispa ner äggen och blanda ihop.\n3. Stek tunna pannkakor i smör på medelvärme, ca 1–2 min per sida.\n4. Servera med bär eller honung."
+    },
+    {
+      "id": "seed-16",
+      "name": "Fiskgratäng med potatis och dill",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 420,
+        "protein": 30,
+        "carbs": 32,
+        "fat": 18
+      },
+      "ingredients": [
+        {
+          "name": "Vit fisk (torsk, sej eller pangasius)",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Potatis, kokt och skivad",
+          "amount": "600",
+          "unit": "g"
+        },
+        {
+          "name": "Grädde",
+          "amount": "2",
+          "unit": "dl"
+        },
+        {
+          "name": "Riven ost",
+          "amount": "100",
+          "unit": "g"
+        },
+        {
+          "name": "Dill (fryst)",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Sätt ugnen på 200 °C.\n2. Varva potatisskivor och fisk i en ugnsform.\n3. Häll grädden över, krydda med salt, peppar och dill.\n4. Strö ost på toppen. Grädda 20–25 min tills osten är gyllene."
+    },
+    {
+      "id": "seed-17",
+      "name": "Köttfärsgryta med rotfrukter",
+      "servings": 4,
+      "flags": [
+        "lagarSigSjalv",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 440,
+        "protein": 28,
+        "carbs": 38,
+        "fat": 18
+      },
+      "ingredients": [
+        {
+          "name": "Nötfärs",
+          "amount": "400",
+          "unit": "g"
+        },
+        {
+          "name": "Potatis",
+          "amount": "400",
+          "unit": "g"
+        },
+        {
+          "name": "Morötter",
+          "amount": "3",
+          "unit": "st"
+        },
+        {
+          "name": "Palsternacka",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Gul lök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Krossade tomater",
+          "amount": "1",
+          "unit": "burk"
+        },
+        {
+          "name": "Köttbuljongtärning (glutenfri)",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Timjan",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Bryn färsen med löken i en stor gryta.\n2. Tillsätt rotfrukter i tärningar, krossade tomater, vatten och buljong.\n3. Sjud under lock på låg värme 25–30 min tills grönsakerna är mjuka.\n4. Smaka av med salt och peppar."
+    },
+    {
+      "id": "seed-18",
+      "name": "Kycklingfilé med vitlök och citron",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 380,
+        "protein": 42,
+        "carbs": 4,
+        "fat": 20
+      },
+      "ingredients": [
+        {
+          "name": "Kycklingfilé",
+          "amount": "4",
+          "unit": "st"
+        },
+        {
+          "name": "Vitlöksklyftor",
+          "amount": "3",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Citron (saft + skal)",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Smör",
+          "amount": "40",
+          "unit": "g"
+        },
+        {
+          "name": "Oregano",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Platta till kycklingfiléerna lite. Salta och peppra.\n2. Stek i smör 5–6 min per sida på medelhög värme.\n3. Lägg i pressad vitlök och oregano de sista minuterna.\n4. Pressa över citron och servera med sallad eller ris."
+    },
+    {
+      "id": "seed-19",
+      "name": "Räkpasta med vitlök och citron",
+      "servings": 4,
+      "flags": [
+        "under15",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 480,
+        "protein": 28,
+        "carbs": 56,
+        "fat": 14
+      },
+      "ingredients": [
+        {
+          "name": "Glutenfri pasta",
+          "amount": "400",
+          "unit": "g"
+        },
+        {
+          "name": "Räkor (frysta, tinade)",
+          "amount": "300",
+          "unit": "g"
+        },
+        {
+          "name": "Vitlöksklyftor",
+          "amount": "3",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Smör",
+          "amount": "40",
+          "unit": "g"
+        },
+        {
+          "name": "Citron",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Persilja",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Koka pastan.\n2. Fräs vitlök i smör ca 1 min. Lägg i räkorna och wärm genom.\n3. Pressa citron, rör ner persilja. Blanda med pastan.\n4. Smaka av med salt och peppar."
+    },
+    {
+      "id": "seed-20",
+      "name": "Laxlåda med dill och potatis",
+      "servings": 4,
+      "flags": [
+        "lagarSigSjalv",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 450,
+        "protein": 30,
+        "carbs": 28,
+        "fat": 24
+      },
+      "ingredients": [
+        {
+          "name": "Laxfilé",
+          "amount": "600",
+          "unit": "g"
+        },
+        {
+          "name": "Potatis",
+          "amount": "700",
+          "unit": "g"
+        },
+        {
+          "name": "Grädde",
+          "amount": "2",
+          "unit": "dl"
+        },
+        {
+          "name": "Gul lök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Dill (fryst eller färsk)",
+          "amount": "3",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Sätt ugnen på 200 °C.\n2. Skiva potatisen tunt och lägg i botten på en ugnsform.\n3. Skiva löken och lägg ovanpå. Krydda med salt och peppar.\n4. Lägg laxen ovanpå. Häll grädden över och strö på dill.\n5. Grädda 30–35 min tills potatisen är mjuk."
+    },
+    {
+      "id": "seed-21",
+      "name": "Pannbiff med löksås",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 470,
+        "protein": 28,
+        "carbs": 20,
+        "fat": 30
+      },
+      "ingredients": [
+        {
+          "name": "Blandfärs",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Ägg",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Gul lök",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Glutenfritt ströbröd",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Mjölk",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Grädde",
+          "amount": "2",
+          "unit": "dl"
+        },
+        {
+          "name": "Glutenfri soja",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Blanda färs, ägg, ströbröd (blött i mjölk) och kryddor. Forma pannbiffar.\n2. Stek biffarna i smör ca 5 min per sida. Lägg åt sidan.\n3. Skiva löken och fräs gyllenbrun i samma panna.\n4. Häll i grädde och soja, sjud tills såsen tjocknar. Smaka av.\n5. Servera med potatismos och pressad gurka."
+    },
+    {
+      "id": "seed-22",
+      "name": "Frikadeller i tomatsås",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 410,
+        "protein": 26,
+        "carbs": 22,
+        "fat": 22
+      },
+      "ingredients": [
+        {
+          "name": "Blandfärs",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Ägg",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Riven lök",
+          "amount": "0.5",
+          "unit": "st"
+        },
+        {
+          "name": "Glutenfritt ströbröd",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Mjölk",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Krossade tomater",
+          "amount": "1",
+          "unit": "burk"
+        },
+        {
+          "name": "Tomatpuré",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Oregano",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Socker",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Blanda färs, ägg, lök, blött ströbröd och kryddor. Forma bollar.\n2. Bryn frikadellerna runtom i olja.\n3. Lägg krossade tomater, tomatpuré, oregano, socker och salt i pannan.\n4. Sjud under lock 15 min. Servera med ris eller glutenfri pasta."
+    },
+    {
+      "id": "seed-23",
+      "name": "Tonfisksallad med majs och ägg",
+      "servings": 2,
+      "flags": [
+        "under15",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 340,
+        "protein": 28,
+        "carbs": 18,
+        "fat": 16
+      },
+      "ingredients": [
+        {
+          "name": "Tonfisk i vatten (burk)",
+          "amount": "2",
+          "unit": "burk"
+        },
+        {
+          "name": "Majs (burk)",
+          "amount": "1",
+          "unit": "burk"
+        },
+        {
+          "name": "Kokt ägg",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Majonnäs",
+          "amount": "3",
+          "unit": "msk"
+        },
+        {
+          "name": "Citron",
+          "amount": "0.5",
+          "unit": "st"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        },
+        {
+          "name": "Gräslök",
+          "amount": "1",
+          "unit": "msk"
+        }
+      ],
+      "instructions": "1. Häll av tonfisken och majsen väl.\n2. Blanda tonfisk, majs, hackade ägg och majonnäs.\n3. Smaka av med citron, salt och peppar.\n4. Strö över gräslök. Servera med glutenfritt bröd eller ris."
+    },
+    {
+      "id": "seed-24",
+      "name": "Kycklingsoppa med ris och morötter",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 360,
+        "protein": 30,
+        "carbs": 34,
+        "fat": 8
+      },
+      "ingredients": [
+        {
+          "name": "Kycklingfilé",
+          "amount": "400",
+          "unit": "g"
+        },
+        {
+          "name": "Morötter",
+          "amount": "3",
+          "unit": "st"
+        },
+        {
+          "name": "Gul lök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Kycklingbuljong (glutenfri)",
+          "amount": "1.2",
+          "unit": "l"
+        },
+        {
+          "name": "Ris",
+          "amount": "1.5",
+          "unit": "dl"
+        },
+        {
+          "name": "Persilja",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Koka kycklingfilén i buljongen 10–12 min. Ta upp och strimla.\n2. Lägg i morötter, lök och ris i buljongen.\n3. Koka ytterligare 15 min.\n4. Lägg tillbaka kycklingen. Smaka av och toppa med persilja."
+    },
+    {
+      "id": "seed-25",
+      "name": "Hemgjorda glutenfria fiskpinnar",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 360,
+        "protein": 28,
+        "carbs": 24,
+        "fat": 14
+      },
+      "ingredients": [
+        {
+          "name": "Torsk- eller sejfilé",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Glutenfritt ströbröd",
+          "amount": "1",
+          "unit": "dl"
+        },
+        {
+          "name": "Majsmjöl",
+          "amount": "3",
+          "unit": "msk"
+        },
+        {
+          "name": "Ägg",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        },
+        {
+          "name": "Olja till stekning",
+          "amount": "2",
+          "unit": "msk"
+        }
+      ],
+      "instructions": "1. Skär fisken i fingertjocka pinnar.\n2. Vänd i majsmjöl, sedan i vispat ägg, sist i ströbröd.\n3. Stek i olja på medelhög värme ca 3–4 min per sida tills gyllene.\n4. Servera med remouladsås och potatis."
+    },
+    {
+      "id": "seed-26",
+      "name": "Kebabsås med kycklingfärs och ris",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 460,
+        "protein": 36,
+        "carbs": 42,
+        "fat": 16
+      },
+      "ingredients": [
+        {
+          "name": "Kycklingfärs",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Gul lök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Vitlöksklyftor",
+          "amount": "2",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Krossade tomater",
+          "amount": "0.5",
+          "unit": "burk"
+        },
+        {
+          "name": "Gräddfil",
+          "amount": "1",
+          "unit": "dl"
+        },
+        {
+          "name": "Oregano",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Paprikapulver",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        },
+        {
+          "name": "Ris",
+          "amount": "3",
+          "unit": "dl"
+        }
+      ],
+      "instructions": "1. Koka ris.\n2. Fräs lök, vitlök och kryddor. Tillsätt kycklingfärsen och bryn.\n3. Rör ner krossade tomater och sjud 10 min.\n4. Ta av värmen och rör ner gräddfil.\n5. Servera över riset med hackad persilja."
+    },
+    {
+      "id": "seed-27",
+      "name": "Korvsoppa med potatis och purjolök",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 390,
+        "protein": 18,
+        "carbs": 36,
+        "fat": 18
+      },
+      "ingredients": [
+        {
+          "name": "Falukorv eller grillkorv (glutenfri)",
+          "amount": "400",
+          "unit": "g"
+        },
+        {
+          "name": "Potatis",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Purjolök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Gul lök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Grönsaksbuljongtärning (glutenfri)",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Vatten",
+          "amount": "8",
+          "unit": "dl"
+        },
+        {
+          "name": "Grädde (valfritt)",
+          "amount": "1",
+          "unit": "dl"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Fräs lök och purjolök i olja.\n2. Tillsätt potatistärningar, vatten och buljong. Koka 15 min.\n3. Skiva korven och lägg i soppan de sista 5 minuterna.\n4. Smaka av och rör ev. ner lite grädde."
+    },
+    {
+      "id": "seed-28",
+      "name": "Kycklingpanna med potatis och paprika",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 430,
+        "protein": 36,
+        "carbs": 32,
+        "fat": 16
+      },
+      "ingredients": [
+        {
+          "name": "Kycklingfilé",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Potatis",
+          "amount": "600",
+          "unit": "g"
+        },
+        {
+          "name": "Paprika",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Gul lök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Paprikapulver",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Oregano",
+          "amount": "0.5",
+          "unit": "tsk"
+        },
+        {
+          "name": "Olja",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Koka potatisen 10 min (halvkokad). Skär i tärningar.\n2. Stek kycklingen i olja, krydda med paprikapulver och oregano.\n3. Lägg i potatis, lök och paprika. Stek tills allt är gyllenbrunt.\n4. Smaka av med salt och peppar."
+    },
+    {
+      "id": "seed-29",
+      "name": "Kycklingsallad med fetaost och avokado",
+      "servings": 2,
+      "flags": [
+        "under15",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 420,
+        "protein": 38,
+        "carbs": 8,
+        "fat": 26
+      },
+      "ingredients": [
+        {
+          "name": "Stekt eller kokt kycklingfilé",
+          "amount": "300",
+          "unit": "g"
+        },
+        {
+          "name": "Fetaost",
+          "amount": "100",
+          "unit": "g"
+        },
+        {
+          "name": "Avokado",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Tomat",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Gurka",
+          "amount": "0.5",
+          "unit": "st"
+        },
+        {
+          "name": "Citron",
+          "amount": "0.5",
+          "unit": "st"
+        },
+        {
+          "name": "Olivolja",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Strimla kycklingen.\n2. Blanda grönsaker, avokado och fetaost i en skål.\n3. Lägg kycklingen ovanpå.\n4. Ringla olivolja, pressa citron, salt och peppar."
+    },
+    {
+      "id": "seed-30",
+      "name": "Lax med sesamsmör och ångad broccoli",
+      "servings": 4,
+      "flags": [
+        "under15",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 440,
+        "protein": 38,
+        "carbs": 6,
+        "fat": 28
+      },
+      "ingredients": [
+        {
+          "name": "Laxfilé",
+          "amount": "600",
+          "unit": "g"
+        },
+        {
+          "name": "Broccoli",
+          "amount": "400",
+          "unit": "g"
+        },
+        {
+          "name": "Smör",
+          "amount": "40",
+          "unit": "g"
+        },
+        {
+          "name": "Sesamolja",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Glutenfri soja",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Sesamfrön",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Stek laxen i smör 3–4 min per sida. Salta och peppra.\n2. Ångkoka broccolin 4–5 min.\n3. Blanda smält smör, sesamolja och soja. Häll över laxen.\n4. Toppa med sesamfrön."
+    },
+    {
+      "id": "seed-31",
+      "name": "Vienerkorv med potatismos och ärtor",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 430,
+        "protein": 18,
+        "carbs": 44,
+        "fat": 20
+      },
+      "ingredients": [
+        {
+          "name": "Vienerkorv (glutenfri)",
+          "amount": "8",
+          "unit": "st"
+        },
+        {
+          "name": "Potatis",
+          "amount": "800",
+          "unit": "g"
+        },
+        {
+          "name": "Smör",
+          "amount": "50",
+          "unit": "g"
+        },
+        {
+          "name": "Mjölk",
+          "amount": "1",
+          "unit": "dl"
+        },
+        {
+          "name": "Frysta ärtor",
+          "amount": "2",
+          "unit": "dl"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Koka potatisen mjuk, ca 20 min.\n2. Mosa med smör och mjölk till fluffigt mos. Smaka av.\n3. Koka ärtorna 2 min, koka korvarna.\n4. Servera med ketchup och senap."
+    },
+    {
+      "id": "seed-32",
+      "name": "Kycklingnuggets (glutenfria)",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 400,
+        "protein": 34,
+        "carbs": 18,
+        "fat": 20
+      },
+      "ingredients": [
+        {
+          "name": "Kycklingfilé",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Glutenfritt ströbröd",
+          "amount": "1.5",
+          "unit": "dl"
+        },
+        {
+          "name": "Riven parmesan",
+          "amount": "3",
+          "unit": "msk"
+        },
+        {
+          "name": "Ägg",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Paprikapulver",
+          "amount": "0.5",
+          "unit": "tsk"
+        },
+        {
+          "name": "Vitlökspulver",
+          "amount": "0.5",
+          "unit": "tsk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        },
+        {
+          "name": "Olja",
+          "amount": "3",
+          "unit": "msk"
+        }
+      ],
+      "instructions": "1. Sätt ugnen på 220 °C.\n2. Skär kycklingen i bitar. Vänd i vispat ägg.\n3. Blanda ströbröd, parmesan och kryddor. Panera kycklingen.\n4. Lägg på bakplåtspapper, ringla olja. Baka 15–18 min tills gyllene."
+    },
+    {
+      "id": "seed-33",
+      "name": "Enchiladas med kycklingfärs",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 520,
+        "protein": 36,
+        "carbs": 44,
+        "fat": 22
+      },
+      "ingredients": [
+        {
+          "name": "Kycklingfärs",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Majstortillor (glutenfria)",
+          "amount": "8",
+          "unit": "st"
+        },
+        {
+          "name": "Krossade tomater",
+          "amount": "1",
+          "unit": "burk"
+        },
+        {
+          "name": "Paprikapulver",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Spiskummin",
+          "amount": "0.5",
+          "unit": "tsk"
+        },
+        {
+          "name": "Riven ost",
+          "amount": "150",
+          "unit": "g"
+        },
+        {
+          "name": "Gräddfil",
+          "amount": "1",
+          "unit": "dl"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Sätt ugnen på 200 °C.\n2. Bryn kycklingfärsen med paprikapulver och spiskummin.\n3. Rulla in i tortillorna, lägg i ugnsform.\n4. Häll krossade tomater över och strö på ost.\n5. Grädda 15 min. Servera med gräddfil."
+    },
+    {
+      "id": "seed-34",
+      "name": "Räkwok med risnudlar",
+      "servings": 4,
+      "flags": [
+        "under15",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 380,
+        "protein": 22,
+        "carbs": 48,
+        "fat": 10
+      },
+      "ingredients": [
+        {
+          "name": "Risnudlar",
+          "amount": "300",
+          "unit": "g"
+        },
+        {
+          "name": "Räkor (tinade)",
+          "amount": "300",
+          "unit": "g"
+        },
+        {
+          "name": "Paprika",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Sockerärtor",
+          "amount": "150",
+          "unit": "g"
+        },
+        {
+          "name": "Glutenfri soja",
+          "amount": "3",
+          "unit": "msk"
+        },
+        {
+          "name": "Sesamolja",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Vitlöksklyftor",
+          "amount": "2",
+          "unit": "klyfta"
+        }
+      ],
+      "instructions": "1. Blöt risnudlarna i kokande vatten 5 min, häll av.\n2. Woka paprika och sockerärtor i het olja med vitlök, 3–4 min.\n3. Lägg i räkorna, woka 2 min.\n4. Lägg i nudlarna, häll i soja och sesamolja. Rör ihop och servera."
+    },
+    {
+      "id": "seed-35",
+      "name": "Kyckling med champinjoner och gräddsås",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 490,
+        "protein": 40,
+        "carbs": 8,
+        "fat": 32
+      },
+      "ingredients": [
+        {
+          "name": "Kycklingfilé",
+          "amount": "600",
+          "unit": "g"
+        },
+        {
+          "name": "Champinjoner",
+          "amount": "300",
+          "unit": "g"
+        },
+        {
+          "name": "Grädde",
+          "amount": "2.5",
+          "unit": "dl"
+        },
+        {
+          "name": "Gul lök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Glutenfri soja",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Timjan",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        },
+        {
+          "name": "Smör",
+          "amount": "2",
+          "unit": "msk"
+        }
+      ],
+      "instructions": "1. Stek kycklingbitarna i smör. Lägg åt sidan.\n2. Fräs lök och champinjoner i samma panna.\n3. Häll i grädde, soja och timjan. Sjud 5 min.\n4. Lägg tillbaka kycklingen och sjud ytterligare 5 min.\n5. Servera med ris eller potatismos."
+    },
+    {
+      "id": "seed-36",
+      "name": "Laxbiffar med dillsås",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 420,
+        "protein": 30,
+        "carbs": 12,
+        "fat": 28
+      },
+      "ingredients": [
+        {
+          "name": "Laxfilé (finhackad eller mald)",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Ägg",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Glutenfritt ströbröd",
+          "amount": "3",
+          "unit": "msk"
+        },
+        {
+          "name": "Gul lök (riven)",
+          "amount": "0.5",
+          "unit": "st"
+        },
+        {
+          "name": "Dill (fryst)",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        },
+        {
+          "name": "Gräddfil",
+          "amount": "1",
+          "unit": "dl"
+        },
+        {
+          "name": "Citron",
+          "amount": "0.5",
+          "unit": "st"
+        }
+      ],
+      "instructions": "1. Blanda lax, ägg, ströbröd, lök, hälften av dillen, salt och peppar.\n2. Forma biffar och stek i smör 4–5 min per sida.\n3. Blanda gräddfil med resten av dillen och citronpressning.\n4. Servera laxbiffarna med dillsåsen och sallad."
+    },
+    {
+      "id": "seed-37",
+      "name": "Nötfärsgryta med paprika och tomat",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 430,
+        "protein": 28,
+        "carbs": 24,
+        "fat": 22
+      },
+      "ingredients": [
+        {
+          "name": "Nötfärs",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Paprika",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Gul lök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Vitlöksklyftor",
+          "amount": "2",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Krossade tomater",
+          "amount": "1",
+          "unit": "burk"
+        },
+        {
+          "name": "Tomatpuré",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Paprikapulver",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Oregano",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Bryn färsen med lök och vitlök.\n2. Tillsätt paprika, tomatpuré och krossade tomater.\n3. Krydda med paprikapulver och oregano. Sjud 15 min.\n4. Servera med ris eller glutenfri pasta."
+    },
+    {
+      "id": "seed-38",
+      "name": "Köttbollssoppa med grönsaker",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 400,
+        "protein": 26,
+        "carbs": 30,
+        "fat": 18
+      },
+      "ingredients": [
+        {
+          "name": "Färdiga glutenfria köttbullar",
+          "amount": "400",
+          "unit": "g"
+        },
+        {
+          "name": "Potatis",
+          "amount": "400",
+          "unit": "g"
+        },
+        {
+          "name": "Morötter",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Rotselleri",
+          "amount": "100",
+          "unit": "g"
+        },
+        {
+          "name": "Köttbuljongtärning (glutenfri)",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Vatten",
+          "amount": "1",
+          "unit": "l"
+        },
+        {
+          "name": "Persilja",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Koka upp vatten med buljong.\n2. Lägg i rotfrukter i tärningar. Koka 15 min.\n3. Lägg i köttbullarna de sista 5 minuterna.\n4. Smaka av och toppa med persilja."
+    },
+    {
+      "id": "seed-39",
+      "name": "Fiskfilé med persiljasmör och pressad potatis",
+      "servings": 4,
+      "flags": [
+        "under15",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 380,
+        "protein": 30,
+        "carbs": 28,
+        "fat": 16
+      },
+      "ingredients": [
+        {
+          "name": "Vit fiskfilé (t.ex. torsk)",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Smör",
+          "amount": "60",
+          "unit": "g"
+        },
+        {
+          "name": "Persilja",
+          "amount": "3",
+          "unit": "msk"
+        },
+        {
+          "name": "Citron",
+          "amount": "0.5",
+          "unit": "st"
+        },
+        {
+          "name": "Vitlöksklyfta",
+          "amount": "1",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Kokt potatis",
+          "amount": "600",
+          "unit": "g"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Stek fiskfilén i lite smör 2–3 min per sida. Salta och peppra.\n2. Smält resten av smöret, finhacka vitlök och persilja. Blanda.\n3. Pressa citron i persiljasmöret.\n4. Häll persiljasmöret över fisken. Servera med pressad potatis."
+    },
+    {
+      "id": "seed-40",
+      "name": "Hemgjorda hamburgare med glutenfritt bröd",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 560,
+        "protein": 36,
+        "carbs": 42,
+        "fat": 26
+      },
+      "ingredients": [
+        {
+          "name": "Nötfärs",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Glutenfria hamburgerbröd",
+          "amount": "4",
+          "unit": "st"
+        },
+        {
+          "name": "Riven lök",
+          "amount": "0.5",
+          "unit": "st"
+        },
+        {
+          "name": "Ägg",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Glutenfritt ströbröd",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        },
+        {
+          "name": "Ost, sallad, tomat och ketchup",
+          "amount": "1",
+          "unit": "portion"
+        }
+      ],
+      "instructions": "1. Blanda färs, ägg, lök, ströbröd, salt och peppar.\n2. Forma 4 burgarbiffar. Stek 4–5 min per sida.\n3. Lägg ost på biffarna de sista minuterna.\n4. Bygg burgare i glutenfria bröd med sallad, tomat och ketchup."
+    },
+    {
+      "id": "seed-41",
+      "name": "Köttfärspaj med rotmoslock",
+      "servings": 4,
+      "flags": [
+        "lagarSigSjalv",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 460,
+        "protein": 26,
+        "carbs": 40,
+        "fat": 20
+      },
+      "ingredients": [
+        {
+          "name": "Nötfärs",
+          "amount": "400",
+          "unit": "g"
+        },
+        {
+          "name": "Potatis",
+          "amount": "600",
+          "unit": "g"
+        },
+        {
+          "name": "Rotselleri eller palsternacka",
+          "amount": "200",
+          "unit": "g"
+        },
+        {
+          "name": "Gul lök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Krossade tomater",
+          "amount": "0.5",
+          "unit": "burk"
+        },
+        {
+          "name": "Smör",
+          "amount": "50",
+          "unit": "g"
+        },
+        {
+          "name": "Mjölk",
+          "amount": "1",
+          "unit": "dl"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Sätt ugnen på 200 °C.\n2. Bryn färsen med lök. Blanda med krossade tomater och krydda.\n3. Lägg färsen i en ugnsform.\n4. Koka potatis och rotfrukter. Mosa med smör och mjölk. Bred moset ovanpå.\n5. Grädda 25–30 min tills moset fått färg."
+    },
+    {
+      "id": "seed-42",
+      "name": "Kycklingrisotto med parmesan",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 510,
+        "protein": 38,
+        "carbs": 52,
+        "fat": 14
+      },
+      "ingredients": [
+        {
+          "name": "Kycklingfilé",
+          "amount": "400",
+          "unit": "g"
+        },
+        {
+          "name": "Risottoris (glutenfritt)",
+          "amount": "3",
+          "unit": "dl"
+        },
+        {
+          "name": "Kycklingbuljong (glutenfri)",
+          "amount": "9",
+          "unit": "dl"
+        },
+        {
+          "name": "Gul lök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Riven parmesan",
+          "amount": "60",
+          "unit": "g"
+        },
+        {
+          "name": "Vitlöksklyftor",
+          "amount": "1",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Smör",
+          "amount": "30",
+          "unit": "g"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Fräs lök i smör. Tillsätt ris och fräs 1 min.\n2. Häll buljong slev för slev under konstant omrörning. Ca 18–20 min.\n3. Stek kycklingen separat. Skär i bitar.\n4. Rör ner parmesan och kycklingen i risotton. Smaka av."
+    },
+    {
+      "id": "seed-43",
+      "name": "Räksoppa med kokosmjölk",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 360,
+        "protein": 20,
+        "carbs": 18,
+        "fat": 22
+      },
+      "ingredients": [
+        {
+          "name": "Räkor (tinade)",
+          "amount": "300",
+          "unit": "g"
+        },
+        {
+          "name": "Kokosmjölk",
+          "amount": "1",
+          "unit": "burk"
+        },
+        {
+          "name": "Fiskbuljong (glutenfri)",
+          "amount": "5",
+          "unit": "dl"
+        },
+        {
+          "name": "Gul lök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Vitlöksklyftor",
+          "amount": "2",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Ingefärspulver",
+          "amount": "0.5",
+          "unit": "tsk"
+        },
+        {
+          "name": "Currypasta eller curry",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Limejuice",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Fräs lök, vitlök och curry i olja.\n2. Häll i buljong och kokosmjölk. Koka upp.\n3. Lägg i räkorna de sista 3 minuterna.\n4. Smaka av med limejuice och salt. Servera med ris."
+    },
+    {
+      "id": "seed-44",
+      "name": "Kyckling med paprika och kokosmjölk",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 460,
+        "protein": 38,
+        "carbs": 12,
+        "fat": 28
+      },
+      "ingredients": [
+        {
+          "name": "Kycklingfilé",
+          "amount": "600",
+          "unit": "g"
+        },
+        {
+          "name": "Röd paprika",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Kokosmjölk",
+          "amount": "1",
+          "unit": "burk"
+        },
+        {
+          "name": "Gul lök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Vitlöksklyftor",
+          "amount": "2",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Currylpasta (röd)",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Fiskbuljong (glutenfri)",
+          "amount": "2",
+          "unit": "dl"
+        },
+        {
+          "name": "Salt",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Stek kycklingbitar i olja tills gyllene.\n2. Fräs lök, vitlök och currypasta 2 min.\n3. Tillsätt paprika, kokosmjölk och buljong.\n4. Sjud 15 min. Servera med jasminris."
+    },
+    {
+      "id": "seed-45",
+      "name": "Lammfärsbiffar med fetaost och gurkyoghurt",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 480,
+        "protein": 32,
+        "carbs": 6,
+        "fat": 36
+      },
+      "ingredients": [
+        {
+          "name": "Lammfärs",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Fetaost",
+          "amount": "100",
+          "unit": "g"
+        },
+        {
+          "name": "Ägg",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Oregano",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Spiskummin",
+          "amount": "0.5",
+          "unit": "tsk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        },
+        {
+          "name": "Turkisk yoghurt",
+          "amount": "2",
+          "unit": "dl"
+        },
+        {
+          "name": "Gurka (riven)",
+          "amount": "0.5",
+          "unit": "st"
+        },
+        {
+          "name": "Vitlöksklyfta",
+          "amount": "1",
+          "unit": "klyfta"
+        }
+      ],
+      "instructions": "1. Blanda lammfärs, ägg, smulad fetaost och kryddor. Forma biffar.\n2. Stek 4–5 min per sida.\n3. Blanda yoghurt med riven gurka och vitlök (tzatziki). Smaka av.\n4. Servera biffarna med tzatziki, ris och sallad."
+    },
+    {
+      "id": "seed-46",
+      "name": "Chili sin carne (vegetarisk)",
+      "servings": 4,
+      "flags": [
+        "lagarSigSjalv",
+        "gronsak",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 380,
+        "protein": 18,
+        "carbs": 56,
+        "fat": 8
+      },
+      "ingredients": [
+        {
+          "name": "Röda kidneybönor (burk)",
+          "amount": "2",
+          "unit": "burk"
+        },
+        {
+          "name": "Svarta bönor (burk)",
+          "amount": "1",
+          "unit": "burk"
+        },
+        {
+          "name": "Krossade tomater",
+          "amount": "1",
+          "unit": "burk"
+        },
+        {
+          "name": "Gul lök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Röd paprika",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Vitlöksklyftor",
+          "amount": "2",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Spiskummin",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Paprikapulver",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Chiliflakes (valfritt)",
+          "amount": "0.5",
+          "unit": "tsk"
+        },
+        {
+          "name": "Grönsaksbuljongtärning (glutenfri)",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Fräs lök, vitlök och paprika med kryddorna.\n2. Tillsätt bönor, krossade tomater och buljong.\n3. Sjud under lock 25–30 min tills smakerna gifter sig.\n4. Servera med ris, gräddfil och riven ost."
+    },
+    {
+      "id": "seed-47",
+      "name": "Omelett med grönsaker och ost (vegetarisk)",
+      "servings": 2,
+      "flags": [
+        "under15",
+        "gronsak",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 340,
+        "protein": 22,
+        "carbs": 6,
+        "fat": 26
+      },
+      "ingredients": [
+        {
+          "name": "Ägg",
+          "amount": "4",
+          "unit": "st"
+        },
+        {
+          "name": "Röd paprika",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Champinjoner",
+          "amount": "100",
+          "unit": "g"
+        },
+        {
+          "name": "Spenat (fryst)",
+          "amount": "1",
+          "unit": "näve"
+        },
+        {
+          "name": "Riven ost",
+          "amount": "60",
+          "unit": "g"
+        },
+        {
+          "name": "Smör",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Fräs paprika och champinjoner i smör 3 min. Tillsätt spenat.\n2. Vispa äggen med salt och peppar. Häll i pannan.\n3. Kör på medelvärme tills nästan stelnat.\n4. Strö ost över och vik ihop omeletten. Servera genast."
+    },
+    {
+      "id": "seed-48",
+      "name": "Böntacos med avokado (vegetarisk)",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "gronsak",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 420,
+        "protein": 16,
+        "carbs": 52,
+        "fat": 16
+      },
+      "ingredients": [
+        {
+          "name": "Svarta bönor (burk)",
+          "amount": "2",
+          "unit": "burk"
+        },
+        {
+          "name": "Majstortillor (glutenfria)",
+          "amount": "12",
+          "unit": "st"
+        },
+        {
+          "name": "Avokado",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Tomat",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Gul lök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Vitlöksklyfta",
+          "amount": "1",
+          "unit": "klyfta"
+        },
+        {
+          "name": "Spiskummin",
+          "amount": "1",
+          "unit": "tsk"
+        },
+        {
+          "name": "Paprikapulver",
+          "amount": "0.5",
+          "unit": "tsk"
+        },
+        {
+          "name": "Limejuice",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Riven ost och gräddfil",
+          "amount": "1",
+          "unit": "portion"
+        }
+      ],
+      "instructions": "1. Fräs lök, vitlök och bönor med spiskummin och paprikapulver ca 5 min.\n2. Mosa avokadon med lime och salt (guacamole).\n3. Värm tortillorna.\n4. Fyll med bönor, guacamole, tomat, ost och gräddfil."
+    },
+    {
+      "id": "seed-49",
+      "name": "Potatissoppa med grädde och purjolök (vegetarisk)",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "gronsak",
+        "novali",
+        "billigt"
+      ],
+      "macros": {
+        "kcal": 330,
+        "protein": 6,
+        "carbs": 42,
+        "fat": 16
+      },
+      "ingredients": [
+        {
+          "name": "Potatis",
+          "amount": "800",
+          "unit": "g"
+        },
+        {
+          "name": "Purjolök",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "Gul lök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Grädde",
+          "amount": "2",
+          "unit": "dl"
+        },
+        {
+          "name": "Grönsaksbuljongtärning (glutenfri)",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Vatten",
+          "amount": "8",
+          "unit": "dl"
+        },
+        {
+          "name": "Smör",
+          "amount": "2",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        },
+        {
+          "name": "Gräslök till servering",
+          "amount": "2",
+          "unit": "msk"
+        }
+      ],
+      "instructions": "1. Fräs lök och purjolök i smör 3 min.\n2. Tillsätt potatisstärningar, vatten och buljong. Koka 15 min.\n3. Mixa soppan slät (stavmixer). Häll i grädde.\n4. Sjud ytterligare 5 min. Smaka av. Servera med gräslök och glutenfritt bröd."
+    },
+    {
+      "id": "seed-50",
+      "name": "Stekt torsk med potatisklyftsor och remoulad",
+      "servings": 4,
+      "flags": [
+        "under30",
+        "novali"
+      ],
+      "macros": {
+        "kcal": 400,
+        "protein": 30,
+        "carbs": 36,
+        "fat": 14
+      },
+      "ingredients": [
+        {
+          "name": "Torskfilé",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Potatis",
+          "amount": "700",
+          "unit": "g"
+        },
+        {
+          "name": "Majsmjöl eller rismjöl",
+          "amount": "3",
+          "unit": "msk"
+        },
+        {
+          "name": "Majonnäs",
+          "amount": "3",
+          "unit": "msk"
+        },
+        {
+          "name": "Kapris",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Dill",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "Citron",
+          "amount": "0.5",
+          "unit": "st"
+        },
+        {
+          "name": "Olja",
+          "amount": "3",
+          "unit": "msk"
+        },
+        {
+          "name": "Salt & peppar",
+          "amount": "1",
+          "unit": "krm"
+        }
+      ],
+      "instructions": "1. Sätt ugnen på 220 °C. Skär potatisen i klyftor, blanda med olja, salt och peppar. Rosta 25 min.\n2. Vänd torsken i mjöl, salta och peppra. Stek i olja 3 min per sida.\n3. Blanda majonnäs med hackad kapris, dill och pressad citron.\n4. Servera torsken med potatisklyftorna och remouladen."
+    }
+  ],
+  "weekPlan": {
+    "monday": {
+      "breakfast": [],
+      "snack": [],
+      "lunch": [],
+      "dinner": []
+    },
+    "tuesday": {
+      "breakfast": [],
+      "snack": [],
+      "lunch": [],
+      "dinner": []
+    },
+    "wednesday": {
+      "breakfast": [],
+      "snack": [],
+      "lunch": [],
+      "dinner": []
+    },
+    "thursday": {
+      "breakfast": [],
+      "snack": [],
+      "lunch": [],
+      "dinner": []
+    },
+    "friday": {
+      "breakfast": [],
+      "snack": [],
+      "lunch": [],
+      "dinner": []
+    },
+    "saturday": {
+      "breakfast": [],
+      "snack": [],
+      "lunch": [],
+      "dinner": []
+    },
+    "sunday": {
+      "breakfast": [],
+      "snack": [],
+      "lunch": [],
+      "dinner": []
+    }
+  },
+  "checked": {},
+  "manualItems": [],
+  "shoppingHistory": [],
+  "weekArchive": []
+}
