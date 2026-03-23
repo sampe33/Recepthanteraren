@@ -1498,16 +1498,17 @@ select.form-ctrl {
 ```
 
 /* ── GITHUB SYNC ────────────────────────────── */
-.sync-pill {
-  display: inline-flex; align-items: center; gap: 5px;
-  font-size: .72rem; font-weight: 600; padding: 4px 12px;
-  border-radius: 20px; margin-left: 12px;
-  transition: all .3s;
+.save-btn {
+  font-size: .75rem; font-weight: 700; padding: 6px 16px;
+  border-radius: 20px; margin-left: 12px; border: none; cursor: pointer;
+  font-family: inherit; letter-spacing: .04em; transition: all .2s;
 }
-.sync-idle    { background: rgba(255,255,255,.06); color: rgba(255,255,255,.35); }
-.sync-syncing { background: rgba(255,255,255,.12); color: rgba(255,255,255,.75); }
-.sync-ok      { background: rgba(100,200,100,.18); color: #9CDD9C; }
-.sync-error   { background: rgba(220,100,100,.2);  color: #F09090; }
+.save-idle    { background: rgba(255,255,255,.10); color: rgba(255,255,255,.4); cursor: default; }
+.save-dirty   { background: var(--primary); color: #fff; box-shadow: 0 2px 10px rgba(108,77,145,.5); }
+.save-dirty:hover { background: var(--primary-dark); }
+.save-saving  { background: rgba(255,255,255,.12); color: rgba(255,255,255,.7); cursor: default; }
+.save-ok      { background: rgba(100,200,100,.22); color: #9CDD9C; cursor: default; }
+.save-error   { background: rgba(220,100,100,.25); color: #F09090; cursor: pointer; }
 
 .gh-setup-card {
   background: var(--card); border-radius: var(--r);
@@ -1540,7 +1541,7 @@ select.form-ctrl {
       <button class="nav-btn"        id="tab-costs"    onclick="switchTab('costs')">Kostnader</button>
       <button class="nav-btn"        id="tab-data"     onclick="switchTab('data')">Inställningar</button>
     </nav>
-    <span id="sync-status" class="sync-pill sync-idle"></span>
+    <button id="save-btn" class="save-btn save-idle" onclick="pushToGitHub()" title="Spara till GitHub">Spara</button>
   </div>
 </header>
 
@@ -1898,24 +1899,26 @@ const GH_FILE     = 'data.json';
 const GH_TOKEN_LS = 'recepthanteraren-gh-token';
 const GH_SHA_LS   = 'recepthanteraren-gh-sha';
 
-let _saveTimer = null;
+let _dirty = false;
 
 function ghToken()       { return localStorage.getItem(GH_TOKEN_LS) || ''; }
 function ghSha()         { return localStorage.getItem(GH_SHA_LS)   || ''; }
 function ghSetSha(sha)   { localStorage.setItem(GH_SHA_LS, sha); }
 
-function setSyncStatus(s, msg) {
-  const el = document.getElementById('sync-status');
-  if (!el) return;
+function setSaveBtn(state, msg) {
+  const btn = document.getElementById('save-btn');
+  if (!btn) return;
   const map = {
-    idle:    ['', ''],
-    syncing: ['\u23f3', 'Synkar\u2026'],
-    ok:      ['\u2713', 'Synkad'],
-    error:   ['\u26a0', msg || 'Synkfel'],
+    idle:   ['Sparat',      'save-idle'],
+    dirty:  ['Spara',       'save-dirty'],
+    saving: ['Sparar…',     'save-saving'],
+    ok:     ['✓ Sparat',    'save-ok'],
+    error:  ['⚠ Försök igen','save-error'],
   };
-  const [icon, text] = map[s] || map.idle;
-  el.textContent = text ? icon + ' ' + text : '';
-  el.className = `sync-pill sync-${s}`;
+  const [label, cls] = map[state] || map.idle;
+  btn.textContent = msg || label;
+  btn.className = `save-btn ${cls}`;
+  btn.disabled = (state === 'saving');
 }
 
 async function githubRead() {
@@ -1994,19 +1997,19 @@ function applyData(data) {
 }
 
 async function load() {
-  setSyncStatus('syncing');
+  setSaveBtn('saving');
   try {
     const data = await githubRead();
     applyData(data);
     localStorage.setItem('recepthanteraren-v2', JSON.stringify(state));
-    setSyncStatus('ok');
+    setSaveBtn('idle');
   } catch (e) {
     // Fall back to localStorage
     try {
       const s = localStorage.getItem('recepthanteraren-v2');
       if (s) applyData(JSON.parse(s));
     } catch (e2) {}
-    setSyncStatus('error', e.message);
+    setSaveBtn('idle');
   }
 }
 
@@ -2023,17 +2026,23 @@ function stateForSync() {
 
 function save() {
   localStorage.setItem('recepthanteraren-v2', JSON.stringify(state));
-  if (!ghToken()) return;
-  if (_saveTimer) clearTimeout(_saveTimer);
-  setSyncStatus('syncing');
-  _saveTimer = setTimeout(async () => {
-    try {
-      await githubWrite(stateForSync());
-      setSyncStatus('ok');
-    } catch (e) {
-      setSyncStatus('error', e.message);
-    }
-  }, 3000);
+  if (!_dirty) {
+    _dirty = true;
+    setSaveBtn('dirty');
+  }
+}
+
+async function pushToGitHub() {
+  if (!ghToken()) { toast('Ange ett GitHub-token under Inställningar för att spara till molnet'); return; }
+  setSaveBtn('saving');
+  try {
+    await githubWrite(stateForSync());
+    _dirty = false;
+    setSaveBtn('ok');
+    setTimeout(() => setSaveBtn('idle'), 3000);
+  } catch (e) {
+    setSaveBtn('error', '⚠ ' + (e.message || 'Fel'));
+  }
 }
 
 /* Token management */
@@ -2044,7 +2053,6 @@ function saveToken() {
   document.getElementById('gh-token-input').value = '';
   toast('Token sparat');
   renderDataTab();
-  save();
 }
 
 function removeToken() {
@@ -2054,34 +2062,26 @@ function removeToken() {
 }
 
 async function forcePull() {
-  setSyncStatus('syncing');
+  setSaveBtn('saving');
   try {
     const data = await githubRead();
     applyData(data);
     localStorage.setItem('recepthanteraren-v2', JSON.stringify(state));
     renderRecipes();
-    setSyncStatus('ok');
+    setSaveBtn('idle');
+    _dirty = false;
     toast('Data h\u00e4mtad fr\u00e5n GitHub');
     renderDataTab();
   } catch (e) {
-    setSyncStatus('error', e.message);
+    setSaveBtn('idle');
     toast('Kunde inte h\u00e4mta: ' + e.message);
   }
 }
 
 async function forcePush() {
   if (!ghToken()) { toast('Inget token \u2013 ange ett token f\u00f6rst'); return; }
-  setSyncStatus('syncing');
-  try {
-    // Re-read SHA first to avoid conflicts
-    await githubRead();
-    await githubWrite(stateForSync());
-    setSyncStatus('ok');
-    toast('Data skickad till GitHub');
-  } catch (e) {
-    setSyncStatus('error', e.message);
-    toast('Kunde inte skicka: ' + e.message);
-  }
+  await pushToGitHub();
+  toast('Data skickad till GitHub');
 }
 
 /* ═══════════════════════════════════════════
