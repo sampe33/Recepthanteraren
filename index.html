@@ -1811,7 +1811,7 @@ async function githubRead() {
   if (!res.ok) throw new Error(`GitHub ${res.status}`);
   const json = await res.json();
   ghSetSha(json.sha);
-  return JSON.parse(atob(json.content.replace(/\s/g, '')));
+  return JSON.parse(decodeURIComponent(escape(atob(json.content.replace(/\s/g, '')))));
 }
 
 async function githubWrite(data) {
