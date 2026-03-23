@@ -511,28 +511,64 @@ select.form-ctrl {
 .stepper-btn:hover { background: var(--primary); color: #fff; border-color: var(--primary); }
 .stepper-val { font-size: 1.1rem; font-weight: 800; min-width: 28px; text-align: center; }
 
-/* Ingredient rows */
-.ing-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 10px; }
-.ing-row {
-  display: grid;
-  grid-template-columns: 1fr 80px 95px 36px;
-  gap: 6px;
-  align-items: center;
-}
-.btn-add-ing {
+/* Ingredient textarea */
+.ing-textarea {
   width: 100%;
-  background: none;
-  border: 2px dashed var(--primary-light);
-  color: var(--primary);
-  padding: 11px;
+  min-height: 140px;
+  resize: vertical;
+  font-family: inherit;
+  font-size: .9rem;
+  line-height: 1.7;
+  padding: 12px 14px;
+  border: 1.5px solid var(--border);
   border-radius: var(--r-sm);
-  font-size: .85rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background .15s;
-  touch-action: manipulation;
+  background: #fff;
+  color: var(--text);
+  transition: border-color .15s;
+  -webkit-appearance: none;
 }
-.btn-add-ing:hover { background: rgba(82,183,136,.1); }
+.ing-textarea:focus { outline: none; border-color: var(--primary); }
+.ing-hint {
+  font-size: .75rem;
+  color: var(--muted);
+  margin-top: 5px;
+  line-height: 1.5;
+}
+
+/* Collapsible advanced section */
+.details-adv {
+  margin-top: 18px;
+  border: 1px solid var(--border);
+  border-radius: var(--r-sm);
+  overflow: hidden;
+}
+.details-adv summary {
+  padding: 12px 16px;
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  color: var(--muted);
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.details-adv summary::-webkit-details-marker { display: none; }
+.details-adv summary::after {
+  content: '▼';
+  font-size: .65rem;
+  transition: transform .2s;
+}
+.details-adv[open] summary::after { transform: rotate(180deg); }
+.details-adv-body {
+  padding: 16px;
+  border-top: 1px solid var(--border);
+  background: var(--bg);
+}
 
 /* ── WEEK GRID ────────────────────────────── */
 .week-grid {
@@ -1625,67 +1661,68 @@ select.form-ctrl {
     <div class="modal-body">
       <input type="hidden" id="edit-id">
 
-```
-  <div class="form-group">
-    <label for="edit-name">Receptnamn *</label>
-    <input id="edit-name" class="form-ctrl" type="text" placeholder="t.ex. Pasta Carbonara" autocomplete="off">
-  </div>
+      <div class="form-group">
+        <label for="edit-name">Receptnamn *</label>
+        <input id="edit-name" class="form-ctrl" type="text" placeholder="t.ex. Pasta Carbonara" autocomplete="off">
+      </div>
 
-  <div class="form-group">
-    <label>Portioner</label>
-    <div class="stepper">
-      <button class="stepper-btn" onclick="stepServings(-1)">−</button>
-      <span class="stepper-val" id="srv-val">4</span>
-      <button class="stepper-btn" onclick="stepServings(1)">+</button>
-      <span style="font-size:.82rem;color:var(--muted);margin-left:2px">portioner</span>
+      <div class="form-group">
+        <label for="ing-textarea">Ingredienser * <span style="font-weight:400;text-transform:none;letter-spacing:0;opacity:.65">— en per rad</span></label>
+        <textarea id="ing-textarea" class="ing-textarea" placeholder="500g kycklingfilé&#10;2 gula lökar&#10;2 dl grädde&#10;1 tsk paprikapulver&#10;Salt och peppar"></textarea>
+        <p class="ing-hint">Skriv mängd och enhet först, t.ex. <em>500g</em>, <em>2 dl</em>, <em>3 msk</em> — eller bara ingrediensens namn.</p>
+      </div>
+
+      <div class="form-group">
+        <label for="edit-instr">Instruktioner</label>
+        <textarea id="edit-instr" class="form-ctrl" placeholder="Beskriv hur rätten tillagas, steg för steg…" style="min-height:100px"></textarea>
+      </div>
+
+      <details class="details-adv">
+        <summary>Avancerat — portioner, näringsvärden &amp; taggar</summary>
+        <div class="details-adv-body">
+          <div class="form-group">
+            <label>Portioner</label>
+            <div class="stepper">
+              <button class="stepper-btn" onclick="stepServings(-1)">−</button>
+              <span class="stepper-val" id="srv-val">4</span>
+              <button class="stepper-btn" onclick="stepServings(1)">+</button>
+              <span style="font-size:.82rem;color:var(--muted);margin-left:2px">portioner</span>
+            </div>
+            <input type="hidden" id="edit-servings" value="4">
+          </div>
+          <div class="form-group">
+            <div class="macro-section-head">Näringsvärden per portion <span style="font-weight:400;opacity:.7">(valfritt)</span></div>
+            <div class="macro-grid">
+              <div class="form-group">
+                <label for="edit-kcal">Kalorier (kcal)</label>
+                <input id="edit-kcal" class="form-ctrl" type="number" min="0" placeholder="450" inputmode="numeric">
+              </div>
+              <div class="form-group">
+                <label for="edit-protein">Protein (g)</label>
+                <input id="edit-protein" class="form-ctrl" type="number" min="0" placeholder="30" inputmode="numeric">
+              </div>
+              <div class="form-group">
+                <label for="edit-carbs">Kolhydrater (g)</label>
+                <input id="edit-carbs" class="form-ctrl" type="number" min="0" placeholder="50" inputmode="numeric">
+              </div>
+              <div class="form-group">
+                <label for="edit-fat">Fett (g)</label>
+                <input id="edit-fat" class="form-ctrl" type="number" min="0" placeholder="15" inputmode="numeric">
+              </div>
+            </div>
+          </div>
+          <div class="form-group" style="margin-bottom:0">
+            <label>Taggar</label>
+            <div class="flags-grid" id="flags-grid"></div>
+          </div>
+        </div>
+      </details>
+
     </div>
-    <input type="hidden" id="edit-servings" value="4">
-  </div>
-
-  <div class="form-group">
-    <label>Ingredienser *</label>
-    <div class="ing-list" id="ing-list"></div>
-    <button class="btn-add-ing" onclick="addIngRow()">+ Lägg till ingrediens</button>
-  </div>
-
-  <div class="form-group">
-    <label for="edit-instr">Instruktioner</label>
-    <textarea id="edit-instr" class="form-ctrl" placeholder="Beskriv hur rätten tillagas, steg för steg…"></textarea>
-  </div>
-
-  <div class="form-group">
-    <div class="macro-section-head">Näringsvärden per portion <span style="font-weight:400;opacity:.7">(valfritt)</span></div>
-    <div class="macro-grid">
-      <div class="form-group">
-        <label for="edit-kcal">Kalorier (kcal)</label>
-        <input id="edit-kcal" class="form-ctrl" type="number" min="0" placeholder="t.ex. 450" inputmode="numeric">
-      </div>
-      <div class="form-group">
-        <label for="edit-protein">Protein (g)</label>
-        <input id="edit-protein" class="form-ctrl" type="number" min="0" placeholder="t.ex. 30" inputmode="numeric">
-      </div>
-      <div class="form-group">
-        <label for="edit-carbs">Kolhydrater (g)</label>
-        <input id="edit-carbs" class="form-ctrl" type="number" min="0" placeholder="t.ex. 50" inputmode="numeric">
-      </div>
-      <div class="form-group">
-        <label for="edit-fat">Fett (g)</label>
-        <input id="edit-fat" class="form-ctrl" type="number" min="0" placeholder="t.ex. 15" inputmode="numeric">
-      </div>
+    <div class="modal-footer">
+      <button class="btn btn-ghost" onclick="closeEdit()">Avbryt</button>
+      <button class="btn btn-primary" onclick="saveRecipe()">Spara recept</button>
     </div>
-  </div>
-
-  <div class="form-group">
-    <label>Flaggor</label>
-    <div class="flags-grid" id="flags-grid"></div>
-  </div>
-</div>
-<div class="modal-footer">
-  <button class="btn btn-ghost" onclick="closeEdit()">Avbryt</button>
-  <button class="btn btn-primary" onclick="saveRecipe()">Spara recept</button>
-</div>
-```
-
   </div>
 </div>
 
@@ -2259,12 +2296,10 @@ function openAddModal() {
   document.getElementById('edit-id').value = '';
   document.getElementById('edit-name').value = '';
   document.getElementById('edit-instr').value = '';
+  document.getElementById('ing-textarea').value = '';
   renderFlagsGrid([]);
   clearMacroFields();
   setServings(4);
-  document.getElementById('ing-list').innerHTML = '';
-  addIngRow();
-  addIngRow();
   document.getElementById('edit-overlay').style.display = 'flex';
   setTimeout(() => document.getElementById('edit-name').focus(), 80);
 }
@@ -2276,12 +2311,10 @@ function openEditModal(id) {
   document.getElementById('edit-id').value = r.id;
   document.getElementById('edit-name').value = r.name;
   document.getElementById('edit-instr').value = r.instructions || '';
+  document.getElementById('ing-textarea').value = ingredientsToText(r.ingredients);
   renderFlagsGrid(r.flags || []);
   loadMacroFields(r.macros || {});
   setServings(r.servings || 4);
-  document.getElementById('ing-list').innerHTML = '';
-  r.ingredients.forEach(i => addIngRow(i));
-  if (!r.ingredients.length) addIngRow();
   document.getElementById('edit-overlay').style.display = 'flex';
 }
 
@@ -2293,6 +2326,29 @@ function setServings(n) {
   document.getElementById('edit-servings').value  = _servings;
 }
 function stepServings(d) { setServings(_servings + d); }
+
+function parseIngredients(text) {
+  const units = ['kg','g','dl','l','cl','ml','msk','tsk','krm','st','burk','förp','näve','klyfta','klyft','skivor','skiva','liter','paket','pkt','nypa'];
+  return text.split('\n')
+    .map(s => s.trim()).filter(Boolean)
+    .map(line => {
+      // "500g namn" or "500 g namn"
+      const m1 = line.match(new RegExp('^([\\d.,]+)\\s*(' + units.join('|') + ')\\.?\\s+(.+)$', 'i'));
+      if (m1) return { name: m1[3].trim(), amount: m1[1].replace(',','.'), unit: m1[2].toLowerCase() };
+      // "2 namn" — number then name, assume st
+      const m2 = line.match(/^([\d.,]+)\s+(.+)$/);
+      if (m2) return { name: m2[2].trim(), amount: m2[1].replace(',','.'), unit: 'st' };
+      return { name: line, amount: '1', unit: 'st' };
+    });
+}
+
+function ingredientsToText(ingredients) {
+  return (ingredients || []).map(i => {
+    const a = (i.amount && i.amount !== '1') ? i.amount + ' ' : '';
+    const u = (i.unit && i.unit !== 'st') ? i.unit + ' ' : '';
+    return (a + u + i.name).trim();
+  }).join('\n');
+}
 
 function addIngRow(ing = {}) {
   const row = document.createElement('div');
@@ -2313,14 +2369,7 @@ function saveRecipe() {
   const name = document.getElementById('edit-name').value.trim();
   if (!name) { toast('Ange ett receptnamn'); return; }
 
-  const ingredients = [...document.querySelectorAll('#ing-list .ing-row')]
-    .map(row => ({
-      name:   row.querySelector('.ing-name').value.trim(),
-      amount: row.querySelector('.ing-amount').value || '1',
-      unit:   row.querySelector('.ing-unit').value,
-    }))
-    .filter(i => i.name);
-
+  const ingredients = parseIngredients(document.getElementById('ing-textarea').value);
   if (!ingredients.length) { toast('Lägg till minst en ingrediens'); return; }
 
   const id           = document.getElementById('edit-id').value;
