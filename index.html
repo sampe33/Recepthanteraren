@@ -1919,20 +1919,20 @@ function setSyncStatus(s, msg) {
 }
 
 async function githubRead() {
-  const headers = {
-    'Accept': 'application/vnd.github+json',
-    'X-GitHub-Api-Version': '2022-11-28',
-  };
-  const tok = ghToken();
-  if (tok) headers['Authorization'] = `Bearer ${tok}`;
-  const res = await fetch(
-    `https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${GH_FILE}`,
-    { headers }
-  );
+  // Fetch raw file (no auth needed for public repos, no rate limit issues)
+  const rawUrl = `https://raw.githubusercontent.com/${GH_OWNER}/${GH_REPO}/main/${GH_FILE}?t=${Date.now()}`;
+  const res = await fetch(rawUrl);
   if (!res.ok) throw new Error(`GitHub ${res.status}`);
-  const json = await res.json();
-  ghSetSha(json.sha);
-  return JSON.parse(decodeURIComponent(escape(atob(json.content.replace(/\s/g, '')))));
+  const data = await res.json();
+  // Also fetch SHA via API (needed for writes) — fire-and-forget, don't block
+  const tok = ghToken();
+  const aHeaders = { 'Accept': 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28' };
+  if (tok) aHeaders['Authorization'] = `Bearer ${tok}`;
+  fetch(`https://api.github.com/repos/${GH_OWNER}/${GH_REPO}/contents/${GH_FILE}`, { headers: aHeaders })
+    .then(r => r.ok ? r.json() : null)
+    .then(j => { if (j?.sha) ghSetSha(j.sha); })
+    .catch(() => {});
+  return data;
 }
 
 async function githubWrite(data) {
