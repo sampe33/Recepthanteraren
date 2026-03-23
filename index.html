@@ -2603,7 +2603,7 @@ function rsPopulate(input) {
   dropdown.innerHTML = recipes.length
     ? recipes.map(r => `<div class="rs-item" onclick="rsSelectById(this,'${r.id}')">${esc(r.name)}</div>`).join('')
     : `<div class="rs-empty">Inga recept hittades</div>`;
-  dropdown.style.display = '';
+  dropdown.style.display = 'block';
 }
 
 function rsOpen(input)   { rsPopulate(input); }
