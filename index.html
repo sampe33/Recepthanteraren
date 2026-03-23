@@ -668,6 +668,7 @@ select.form-ctrl {
   overflow-y: auto;
   z-index: 150;
   -webkit-overflow-scrolling: touch;
+  touch-action: pan-y;
 }
 .rs-item {
   padding: 10px 12px;
@@ -2485,8 +2486,8 @@ function renderWeek() {
           ? `<p class="no-meal-text" style="font-size:.68rem">Tagga recept med 🌅 Frukost/Mellanmål för att visa dem här</p>`
           : `<div class="rs-wrap" data-day="${day.key}" data-meal="${meal.key}" data-role="frukost">
               <input class="rs-input" type="text" placeholder="+ Välj ${meal.label.toLowerCase()}…"
-                oninput="rsFilter(this)" onfocus="rsOpen(this)" onblur="rsBlur(this)" autocomplete="off">
-              <div class="rs-dropdown"></div>
+                oninput="rsFilter(this)" onfocus="rsOpen(this)" onblur="rsBlur(this)" onkeydown="rsKeydown(this,event)" autocomplete="off">
+              <div class="rs-dropdown" onmousedown="event.preventDefault()" ontouchstart="event.preventDefault()"></div>
             </div>`;
         return `
           <div class="meal-section">
@@ -2513,14 +2514,14 @@ function renderWeek() {
 
         const mainSel = `<div class="rs-wrap" data-day="${day.key}" data-meal="${meal.key}" data-role="main">
           <input class="rs-input" type="text" placeholder="+ Välj recept…"
-            oninput="rsFilter(this)" onfocus="rsOpen(this)" onblur="rsBlur(this)" autocomplete="off">
-          <div class="rs-dropdown"></div>
+            oninput="rsFilter(this)" onfocus="rsOpen(this)" onblur="rsBlur(this)" onkeydown="rsKeydown(this,event)" autocomplete="off">
+          <div class="rs-dropdown" onmousedown="event.preventDefault()" ontouchstart="event.preventDefault()"></div>
         </div>`;
 
         const sideSel = availableSides.length ? `<div class="rs-wrap rs-side" data-day="${day.key}" data-meal="${meal.key}" data-role="side">
           <input class="rs-input" type="text" placeholder="+ Lägg till grönsak…"
-            oninput="rsFilter(this)" onfocus="rsOpen(this)" onblur="rsBlur(this)" autocomplete="off">
-          <div class="rs-dropdown"></div>
+            oninput="rsFilter(this)" onfocus="rsOpen(this)" onblur="rsBlur(this)" onkeydown="rsKeydown(this,event)" autocomplete="off">
+          <div class="rs-dropdown" onmousedown="event.preventDefault()" ontouchstart="event.preventDefault()"></div>
         </div>` : '';
 
         return `
@@ -2600,7 +2601,7 @@ function rsPopulate(input) {
   if (q) recipes = recipes.filter(r => r.name.toLowerCase().includes(q));
   const dropdown = input.nextElementSibling;
   dropdown.innerHTML = recipes.length
-    ? recipes.map(r => `<div class="rs-item" onmousedown="rsSelect(event,'${r.id}')">${esc(r.name)}</div>`).join('')
+    ? recipes.map(r => `<div class="rs-item" onclick="rsSelectById(this,'${r.id}')">${esc(r.name)}</div>`).join('')
     : `<div class="rs-empty">Inga recept hittades</div>`;
   dropdown.style.display = '';
 }
@@ -2608,11 +2609,19 @@ function rsPopulate(input) {
 function rsOpen(input)   { rsPopulate(input); }
 function rsFilter(input) { rsPopulate(input); }
 function rsBlur(input)   { setTimeout(() => { input.nextElementSibling.style.display = 'none'; input.value = ''; }, 160); }
+function rsKeydown(input, e) {
+  if (e.key === 'Enter') {
+    const first = input.nextElementSibling.querySelector('.rs-item');
+    if (first) first.click();
+    e.preventDefault();
+  }
+}
 
-function rsSelect(e, recipeId) {
-  e.preventDefault();
-  const input = e.target.closest('.rs-dropdown').previousElementSibling;
-  const { dayKey, mealType, role } = rsGetContext(input);
+function rsSelectById(item, recipeId) {
+  const dropdown = item.closest('.rs-dropdown');
+  const input = dropdown.previousElementSibling;
+  const wrap = input.closest('.rs-wrap');
+  const dayKey = wrap.dataset.day, mealType = wrap.dataset.meal, role = wrap.dataset.role;
   const actualRole = role === 'frukost' ? 'main' : role;
   const meal = state.weekPlan[dayKey][mealType] || [];
   if (!meal.find(en => en.id === recipeId && en.role === actualRole)) {
