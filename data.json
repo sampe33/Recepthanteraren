@@ -4597,53 +4597,166 @@
         }
       ],
       "instructions": "Strimla fint. Salta och knåda lätt med händerna så den mjuknar lite."
+    },
+    {
+      "id": "iijh3jqzxs8mnndm601",
+      "name": "Korvstroganoff",
+      "servings": 6,
+      "ingredients": [
+        {
+          "name": "gul lök",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Kelda tomatsås",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "matlagningsgrädde 4%",
+          "amount": "500",
+          "unit": "g"
+        },
+        {
+          "name": "Falukorv",
+          "amount": "800",
+          "unit": "g"
+        },
+        {
+          "name": "tomatpuré",
+          "amount": "100",
+          "unit": "g"
+        },
+        {
+          "name": "ris",
+          "amount": "400",
+          "unit": "g"
+        }
+      ],
+      "instructions": "",
+      "flags": [
+        "novali",
+        "under30"
+      ],
+      "macros": {
+        "kcal": null,
+        "protein": null,
+        "carbs": null,
+        "fat": null
+      }
     }
   ],
   "weekPlan": {
     "monday": {
       "breakfast": [],
-      "lunch": [],
+      "lunch": [
+        {
+          "id": "veg-27",
+          "portions": 3,
+          "person": "alla",
+          "role": "side"
+        },
+        {
+          "id": "veg-26",
+          "portions": 3,
+          "person": "alla",
+          "role": "side"
+        }
+      ],
       "snack": [],
-      "dinner": []
+      "dinner": [
+        {
+          "id": "iijh3jqzxs8mnndm601",
+          "portions": 3,
+          "person": "alla",
+          "role": "main"
+        }
+      ]
     },
     "tuesday": {
       "breakfast": [],
       "lunch": [],
       "snack": [],
-      "dinner": []
+      "dinner": [
+        {
+          "id": "iijh3jqzxs8mnndm601",
+          "portions": 3,
+          "person": "alla",
+          "role": "main"
+        }
+      ]
     },
     "wednesday": {
       "breakfast": [],
       "lunch": [],
       "snack": [],
-      "dinner": []
+      "dinner": [
+        {
+          "id": "seed-1",
+          "portions": 3,
+          "person": "alla",
+          "role": "main"
+        }
+      ]
     },
     "thursday": {
       "breakfast": [],
       "lunch": [],
       "snack": [],
-      "dinner": []
+      "dinner": [
+        {
+          "id": "seed-1",
+          "portions": 3,
+          "person": "alla",
+          "role": "main"
+        }
+      ]
     },
     "friday": {
       "breakfast": [],
       "lunch": [],
       "snack": [],
-      "dinner": []
+      "dinner": [
+        {
+          "id": "seed-1",
+          "portions": 3,
+          "person": "alla",
+          "role": "main"
+        }
+      ]
     },
     "saturday": {
       "breakfast": [],
       "lunch": [],
       "snack": [],
-      "dinner": []
+      "dinner": [
+        {
+          "id": "seed-10",
+          "portions": 3,
+          "person": "alla",
+          "role": "main"
+        }
+      ]
     },
     "sunday": {
       "breakfast": [],
       "lunch": [],
       "snack": [],
-      "dinner": []
+      "dinner": [
+        {
+          "id": "seed-10",
+          "portions": 3,
+          "person": "alla",
+          "role": "main"
+        }
+      ]
     }
   },
-  "checked": {},
+  "checked": {
+    "falukorv|g": false,
+    "gul lök|st": false
+  },
   "manualItems": [],
   "shoppingHistory": [],
   "weekArchive": []
