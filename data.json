@@ -4737,6 +4737,78 @@
         "carbs": null,
         "fat": null
       }
+    },
+    {
+      "id": "uj614q4dj9bmnutr9nw",
+      "name": "Krämig keldas svampsås m pasta",
+      "servings": 7,
+      "ingredients": [
+        {
+          "name": "kyckling",
+          "amount": "2",
+          "unit": "kg"
+        },
+        {
+          "name": "förpackningar Keldas svampsås",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "500–700 g pasta",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "1–2 gula lökar",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "2–3 vitlöksklyftor",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "1–2 dl mjölk eller matlagningsgrädde",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "1–2 tsk soja",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "ca 2 dl riven ost (pe",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "citron (saften)",
+          "amount": "0.5",
+          "unit": "st"
+        },
+        {
+          "name": "Salt, peppar",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "Lite olja/smör till stekning",
+          "amount": "1",
+          "unit": "st"
+        }
+      ],
+      "instructions": "Koka pastan. Spara lite pastavatten.\n\nStek kycklingen i omgångar med salt & peppar tills den får fin yta. Lägg åt sidan.\n\nStek hackad lök mjuk i samma panna. Tillsätt vitlök sista minuten.\n\nHäll i svampsåsen + mjölk/grädde. Tillsätt soja. Låt puttra några minuter.\n\nBlanda ner pastan + lite pastavatten så såsen blir krämig.\n\nLägg tillbaka kycklingen och rör ihop.\n\nDra ner värmen och rör ner riven ost.\n\nPressa i citronsaft, smaka av med salt & peppar.",
+      "flags": [
+        "novali"
+      ],
+      "macros": {
+        "kcal": 550,
+        "protein": 45,
+        "carbs": null,
+        "fat": 20
+      }
     }
   ],
   "weekPlan": {
