@@ -4,18 +4,12 @@
       "id": "seed-1",
       "name": "Linsgryta med kokos och curry",
       "servings": 4,
-      "flags": [
-        "novali",
-        "billigt",
-        "lagarSigSjalv"
-      ],
-      "macros": {
-        "kcal": 420,
-        "protein": 18,
-        "carbs": 52,
-        "fat": 14
-      },
       "ingredients": [
+        {
+          "name": "kyckling",
+          "amount": "500",
+          "unit": "g"
+        },
         {
           "name": "Röda linser",
           "amount": "2.5",
@@ -37,9 +31,9 @@
           "unit": "st"
         },
         {
-          "name": "Kokosmjölk",
+          "name": "burk Kokosmjölk",
           "amount": "1",
-          "unit": "burk"
+          "unit": "st"
         },
         {
           "name": "Vatten",
@@ -47,9 +41,9 @@
           "unit": "dl"
         },
         {
-          "name": "Krossade tomater",
+          "name": "burk Krossade tomater",
           "amount": "1",
-          "unit": "burk"
+          "unit": "st"
         },
         {
           "name": "Curry",
@@ -57,9 +51,9 @@
           "unit": "msk"
         },
         {
-          "name": "Gurkmeja",
+          "name": "tsk Gurkmeja",
           "amount": "1",
-          "unit": "tsk"
+          "unit": "st"
         },
         {
           "name": "Grönsaksbuljongtärning (glutenfri)",
@@ -67,22 +61,33 @@
           "unit": "st"
         },
         {
-          "name": "Salt & peppar",
+          "name": "krm Salt & peppar",
           "amount": "1",
-          "unit": "krm"
+          "unit": "st"
         },
         {
-          "name": "Olja",
+          "name": "msk Olja",
           "amount": "1",
-          "unit": "msk"
+          "unit": "st"
         },
         {
-          "name": "Spenat eller frysta ärtor (valfritt)",
+          "name": "näve Spenat eller frysta ärtor (valfritt)",
           "amount": "1",
-          "unit": "näve"
+          "unit": "st"
         }
       ],
-      "instructions": "1. Fräs lök, vitlök och curry i lite olja tills det doftar gott.\n2. Tillsätt morötter, linser, kokosmjölk, vatten, krossade tomater och buljong.\n3. Låt sjuda i ca 15–20 minuter tills linserna är mjuka.\n4. Smaka av med salt, peppar och ev. mer curry.\n5. Rör ner spenat eller ärtor på slutet om du vill."
+      "instructions": "1. Fräs lök, vitlök och curry i lite olja tills det doftar gott.\n2. Tillsätt morötter, linser, kokosmjölk, vatten, krossade tomater och buljong.\n3. Låt sjuda i ca 15–20 minuter tills linserna är mjuka.\n4. Smaka av med salt, peppar och ev. mer curry.\n5. Rör ner spenat eller ärtor på slutet om du vill.",
+      "flags": [
+        "novali",
+        "billigt",
+        "lagarSigSjalv"
+      ],
+      "macros": {
+        "kcal": 420,
+        "protein": 18,
+        "carbs": 52,
+        "fat": 14
+      }
     },
     {
       "id": "seed-2",
@@ -4885,7 +4890,20 @@
   },
   "checked": {
     "falukorv|g": false,
-    "gul lök|st": false
+    "gul lök|st": false,
+    "1–2 gula lökar|st": true,
+    "1–2 tsk soja|st": true,
+    "2–3 vitlöksklyftor|st": true,
+    "500–700 g pasta|st": true,
+    "ca 2 dl riven ost (pe|st": true,
+    "citron (saften)|st": true,
+    "förpackningar keldas svampsås|st": true,
+    "kyckling|kg": true,
+    "lite olja/smör till stekning|st": true,
+    "mogen banan|st": true,
+    "salt, peppar|st": true,
+    "smör till stekning|msk": true,
+    "ägg|st": true
   },
   "manualItems": [],
   "shoppingHistory": [],
