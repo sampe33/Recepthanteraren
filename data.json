@@ -4867,19 +4867,40 @@
       "breakfast": [],
       "lunch": [],
       "snack": [],
-      "dinner": []
+      "dinner": [
+        {
+          "id": "seed-1",
+          "portions": 3,
+          "person": "alla",
+          "role": "main"
+        }
+      ]
     },
     "friday": {
       "breakfast": [],
       "lunch": [],
       "snack": [],
-      "dinner": []
+      "dinner": [
+        {
+          "id": "seed-1",
+          "portions": 3,
+          "person": "alla",
+          "role": "main"
+        }
+      ]
     },
     "saturday": {
       "breakfast": [],
       "lunch": [],
       "snack": [],
-      "dinner": []
+      "dinner": [
+        {
+          "id": "seed-1",
+          "portions": 3,
+          "person": "alla",
+          "role": "main"
+        }
+      ]
     },
     "sunday": {
       "breakfast": [],
