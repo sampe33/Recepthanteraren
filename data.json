@@ -4645,49 +4645,92 @@
         "carbs": null,
         "fat": null
       }
+    },
+    {
+      "id": "yas8m8rofmnujmcma",
+      "name": "Krämig proteinbowl",
+      "servings": 1,
+      "ingredients": [
+        {
+          "name": "kokosyoghurt",
+          "amount": "1",
+          "unit": "dl"
+        },
+        {
+          "name": "keso",
+          "amount": "1",
+          "unit": "dl"
+        },
+        {
+          "name": "½ banan",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "skopa kasein (choklad)",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "jordnötssmör",
+          "amount": "1",
+          "unit": "tsk"
+        }
+      ],
+      "instructions": "Gör så här:\nBlanda alla ingredienser i en skål.\nMixa för slät konsistens eller rör ihop om du vill ha mer textur.",
+      "flags": [
+        "under15",
+        "fruktostMellanmal"
+      ],
+      "macros": {
+        "kcal": 350,
+        "protein": 30,
+        "carbs": null,
+        "fat": null
+      }
     }
   ],
   "weekPlan": {
     "monday": {
       "breakfast": [],
-      "snack": [],
       "lunch": [],
+      "snack": [],
       "dinner": []
     },
     "tuesday": {
       "breakfast": [],
-      "snack": [],
       "lunch": [],
+      "snack": [],
       "dinner": []
     },
     "wednesday": {
       "breakfast": [],
-      "snack": [],
       "lunch": [],
+      "snack": [],
       "dinner": []
     },
     "thursday": {
       "breakfast": [],
-      "snack": [],
       "lunch": [],
+      "snack": [],
       "dinner": []
     },
     "friday": {
       "breakfast": [],
-      "snack": [],
       "lunch": [],
+      "snack": [],
       "dinner": []
     },
     "saturday": {
       "breakfast": [],
-      "snack": [],
       "lunch": [],
+      "snack": [],
       "dinner": []
     },
     "sunday": {
       "breakfast": [],
-      "snack": [],
       "lunch": [],
+      "snack": [],
       "dinner": []
     }
   },
