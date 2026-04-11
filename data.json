@@ -4813,22 +4813,50 @@
   ],
   "weekPlan": {
     "monday": {
-      "breakfast": [],
+      "breakfast": [
+        {
+          "id": "seed-15",
+          "portions": 3,
+          "person": "alla",
+          "role": "main"
+        }
+      ],
       "lunch": [],
       "snack": [],
-      "dinner": []
+      "dinner": [
+        {
+          "id": "uj614q4dj9bmnutr9nw",
+          "portions": 3,
+          "person": "alla",
+          "role": "main"
+        }
+      ]
     },
     "tuesday": {
       "breakfast": [],
       "lunch": [],
       "snack": [],
-      "dinner": []
+      "dinner": [
+        {
+          "id": "uj614q4dj9bmnutr9nw",
+          "portions": 3,
+          "person": "alla",
+          "role": "main"
+        }
+      ]
     },
     "wednesday": {
       "breakfast": [],
       "lunch": [],
       "snack": [],
-      "dinner": []
+      "dinner": [
+        {
+          "id": "uj614q4dj9bmnutr9nw",
+          "portions": 3,
+          "person": "alla",
+          "role": "main"
+        }
+      ]
     },
     "thursday": {
       "breakfast": [],
