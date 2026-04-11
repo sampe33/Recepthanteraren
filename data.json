@@ -4650,107 +4650,45 @@
   "weekPlan": {
     "monday": {
       "breakfast": [],
-      "lunch": [
-        {
-          "id": "veg-27",
-          "portions": 3,
-          "person": "alla",
-          "role": "side"
-        },
-        {
-          "id": "veg-26",
-          "portions": 3,
-          "person": "alla",
-          "role": "side"
-        }
-      ],
       "snack": [],
-      "dinner": [
-        {
-          "id": "iijh3jqzxs8mnndm601",
-          "portions": 3,
-          "person": "alla",
-          "role": "main"
-        }
-      ]
+      "lunch": [],
+      "dinner": []
     },
     "tuesday": {
       "breakfast": [],
-      "lunch": [],
       "snack": [],
-      "dinner": [
-        {
-          "id": "iijh3jqzxs8mnndm601",
-          "portions": 3,
-          "person": "alla",
-          "role": "main"
-        }
-      ]
+      "lunch": [],
+      "dinner": []
     },
     "wednesday": {
       "breakfast": [],
-      "lunch": [],
       "snack": [],
-      "dinner": [
-        {
-          "id": "seed-1",
-          "portions": 3,
-          "person": "alla",
-          "role": "main"
-        }
-      ]
+      "lunch": [],
+      "dinner": []
     },
     "thursday": {
       "breakfast": [],
-      "lunch": [],
       "snack": [],
-      "dinner": [
-        {
-          "id": "seed-1",
-          "portions": 3,
-          "person": "alla",
-          "role": "main"
-        }
-      ]
+      "lunch": [],
+      "dinner": []
     },
     "friday": {
       "breakfast": [],
-      "lunch": [],
       "snack": [],
-      "dinner": [
-        {
-          "id": "seed-1",
-          "portions": 3,
-          "person": "alla",
-          "role": "main"
-        }
-      ]
+      "lunch": [],
+      "dinner": []
     },
     "saturday": {
       "breakfast": [],
-      "lunch": [],
       "snack": [],
-      "dinner": [
-        {
-          "id": "seed-10",
-          "portions": 3,
-          "person": "alla",
-          "role": "main"
-        }
-      ]
+      "lunch": [],
+      "dinner": []
     },
     "sunday": {
       "breakfast": [],
-      "lunch": [],
       "snack": [],
-      "dinner": [
-        {
-          "id": "seed-10",
-          "portions": 3,
-          "person": "alla",
-          "role": "main"
-        }
-      ]
+      "lunch": [],
+      "dinner": []
     }
   },
   "checked": {
@@ -4759,5 +4697,106 @@
   },
   "manualItems": [],
   "shoppingHistory": [],
-  "weekArchive": []
+  "weekArchive": [
+    {
+      "id": "zz8xhpi93p8mnuak27o",
+      "label": "Vecka 15 2026",
+      "week": 15,
+      "year": 2026,
+      "date": "2026-04-11T12:08:41.268Z",
+      "weekPlan": {
+        "monday": {
+          "breakfast": [],
+          "lunch": [],
+          "snack": [],
+          "dinner": [
+            {
+              "person": "alla",
+              "role": "main",
+              "id": "iijh3jqzxs8mnndm601",
+              "portions": 3
+            }
+          ]
+        },
+        "tuesday": {
+          "breakfast": [],
+          "lunch": [],
+          "snack": [],
+          "dinner": [
+            {
+              "person": "alla",
+              "role": "main",
+              "id": "iijh3jqzxs8mnndm601",
+              "portions": 3
+            }
+          ]
+        },
+        "wednesday": {
+          "breakfast": [],
+          "lunch": [],
+          "snack": [],
+          "dinner": [
+            {
+              "person": "alla",
+              "role": "main",
+              "id": "seed-1",
+              "portions": 3
+            }
+          ]
+        },
+        "thursday": {
+          "breakfast": [],
+          "lunch": [],
+          "snack": [],
+          "dinner": [
+            {
+              "person": "alla",
+              "role": "main",
+              "id": "seed-1",
+              "portions": 3
+            }
+          ]
+        },
+        "friday": {
+          "breakfast": [],
+          "lunch": [],
+          "snack": [],
+          "dinner": [
+            {
+              "person": "alla",
+              "role": "main",
+              "id": "seed-1",
+              "portions": 3
+            }
+          ]
+        },
+        "saturday": {
+          "breakfast": [],
+          "lunch": [],
+          "snack": [],
+          "dinner": [
+            {
+              "person": "alla",
+              "role": "main",
+              "id": "seed-10",
+              "portions": 3
+            }
+          ]
+        },
+        "sunday": {
+          "breakfast": [],
+          "lunch": [],
+          "snack": [],
+          "dinner": [
+            {
+              "person": "alla",
+              "role": "main",
+              "id": "seed-10",
+              "portions": 3
+            }
+          ]
+        }
+      }
+    }
+  ]
 }
