@@ -4688,6 +4688,55 @@
         "carbs": null,
         "fat": null
       }
+    },
+    {
+      "id": "0814dcq49tw8mnujplac",
+      "name": "Krämiga choklad-havrepannkakor",
+      "servings": 1,
+      "ingredients": [
+        {
+          "name": "glutenfri havregryn",
+          "amount": "1",
+          "unit": "dl"
+        },
+        {
+          "name": "banan",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "ägg",
+          "amount": "2",
+          "unit": "st"
+        },
+        {
+          "name": "skopa kasein (choklad)",
+          "amount": "1",
+          "unit": "st"
+        },
+        {
+          "name": "keso",
+          "amount": "1",
+          "unit": "msk"
+        },
+        {
+          "name": "salt",
+          "amount": "1",
+          "unit": "nypa"
+        }
+      ],
+      "instructions": "Mixa alla ingredienser till en smet.\nStek små pannkakor på medelvärme i stekpanna.\nLåt dem bli lite krämiga i mitten innan du tar av dem.",
+      "flags": [
+        "novali",
+        "under15",
+        "fruktostMellanmal"
+      ],
+      "macros": {
+        "kcal": 450,
+        "protein": 33,
+        "carbs": null,
+        "fat": null
+      }
     }
   ],
   "weekPlan": {
